@@ -1,0 +1,1 @@
+var numberOfStatesInUSA = 50;

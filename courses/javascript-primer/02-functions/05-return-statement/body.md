@@ -1,0 +1,36 @@
+<!--{ ids:[], language:'JavaScript', type:'workshop', order: 5, name:'`return` statement', description:'Explain what a `return` statement does.' }-->
+
+### Objectives
+
+After this exercise, you should be able to:
+
+- Explain what a `return` statement does
+
+### Example
+
+Let's look again at our `greet` function:
+
+```js
+function greet(name) {
+  return "Hey, what's up " + name + "? How are you?";
+}
+```
+
+The `return` keyword creates a __`return` statement__, which stops the execution of a function.
+
+If a value is specified in the `return` statement, then the value is returned to the function caller. If no value is specified (e.g. `return;`), then `undefined` is returned instead.
+
+The `return` keyword makes a value available outside of a function after the function executes. If we call a function when it's assigned to a variable, the variable will store the function's returned value:
+
+```js
+var greetTara = greet("Tara"); // returns "Hey, what's up Tara? How are you?"
+var greetJose = greet("Jose"); // returns "Hey, what's up Jose? How are you?"
+```
+
+While functions commonly have a `return` statement, it isn't a requirement for functions. You can write a function that does not return anything.
+
+### Exercise
+
+Create a function named `geneSings` that returns the string `"I'm singin' in the rain, just singin' in the rain"`.
+
+Then call this function and assign the function call to a variable named `lyrics`.
