@@ -2,7 +2,7 @@ var assert = require('chai').assert;
 
 describe('Single-line comments', function () {
   it('start with //', function () {
-    assert.equal(3, numberOfSingleLineComments);
+    assert.equal(4, numberOfSingleLineComments);
   });
 });
 describe('Muli-line comments', function () {

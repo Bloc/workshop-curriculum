@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 7, name:'Escape Sequences', description:'Use escape sequences to display special characters in a string.' }-->
+<!--{ ids:[130], language:'JavaScript', type:'workshop', order: 6, name:'Escape Sequences', description:'Escape sequences are character sets with special meaning' }-->
 
 ### Objectives
 
@@ -36,7 +36,7 @@ Here are some common escape sequences:
 | `\'`            | single quote |
 | `\"`            | double quote |
 | `\\`            | backslash    |
-| `\n`            | new line      |
+| `\n`            | new line     |
 | `\t`            | tab          |
 
 ### Exercise

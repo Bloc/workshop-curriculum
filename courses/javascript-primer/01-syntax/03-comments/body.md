@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 3, name:'Comments I', description:'Recognize and explain what a comment is.' }-->
+<!--{ ids:[125], language:'JavaScript', type:'workshop', order: 2, name:'Comments I', description:'Comments help explain what a script does' }-->
 
 ### Objectives
 

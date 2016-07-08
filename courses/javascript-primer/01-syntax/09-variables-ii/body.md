@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 9, name:'Variables II', description:'Assign values to a variable.' }-->
+<!--{ ids:[133], language:'JavaScript', type:'workshop', order: 8, name:'Variables II', description:'Variables can store any type of data' }-->
 
 ### Objectives
 
