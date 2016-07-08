@@ -5,7 +5,7 @@ describe('5 != \'5\'', function () {
     assert.isUndefined(comparison1);
   });
 });
-describe('3 * 3 >= '9'', function () {
+describe('3 * 3 >= \'9\'', function () {
   it('is true', function () {
     assert.isDefined(comparison2);
   });

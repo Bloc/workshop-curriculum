@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 6, name:'Escape Character', description:'Recognize and use the escape character for quotation marks.' }-->
+<!--{ ids:[129], language:'JavaScript', type:'workshop', order: 5, name:'Escape Character', description:'Some characters are more special than others' }-->
 
 ### Objectives
 

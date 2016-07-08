@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 11, name:'Variables III', description:'Change the value of a variable.' }-->
+<!--{ ids:[134], language:'JavaScript', type:'workshop', order: 9, name:'Variables III', description:'Change the value of a variable' }-->
 
 ### Objectives
 

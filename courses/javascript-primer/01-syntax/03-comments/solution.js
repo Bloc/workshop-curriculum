@@ -1,2 +1,2 @@
-var numberOfSingleLineComments = 3;
+var numberOfSingleLineComments = 4;
 var numberOfMultiLineComments  = 1;

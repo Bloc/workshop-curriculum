@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 5, name:'Strings', description:'Recognize and demonstrate the correct use of quotation marks in strings.' }-->
+<!--{ ids:[128], language:'JavaScript', type:'workshop', order: 4, name:'Strings', description:'Strings are text enclosed in quotation marks' }-->
 
 ### Objectives
 

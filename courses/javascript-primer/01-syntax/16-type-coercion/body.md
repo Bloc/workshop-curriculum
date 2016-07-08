@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 16, name:'Type Coercion', description:'Explain type coercion and what each comparison operator does.' }-->
+<!--{ ids:[141], language:'JavaScript', type:'workshop', order: 15, name:'Type Coercion', description:'Coerce one data type into a another... everyone's doing it!' }-->
 
 ### Objectives
 
@@ -31,4 +31,14 @@ Type coercion can often cause unexpected results or errors in code. To avoid typ
 
 ### Exercise
 
-There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their lines from the editor.
+There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their assignments.
+
+```
+var comparison7 = 42 + 4;
+```
+
+For example, if you think the expression assigned to `comparison7` evaluates to `false`, then remove its assigned value and leave it like so:
+
+```
+var comparison7;
+```

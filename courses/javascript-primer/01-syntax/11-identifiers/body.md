@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 11, name:'Identifiers', description:'State the rules for creating identifiers.' }-->
+<!--{ ids:[136], language:'JavaScript', type:'workshop', order: 10, name:'Identifiers', description:'Identifiers are unique names' }-->
 
 ### Objectives
 
@@ -32,4 +32,14 @@ Variable names should be descriptive. Identifiers like `someVar23` and `myVariab
 
 ### Exercise
 
-There are six variables declared in the editor. Three of the variables have good identifiers and three of them do not. Determine the three poorly-named variables and remove their lines from the editor.
+There are six variables declared in the editor. Three of the variables have good identifiers and three of them do not. Determine the three poorly-named variables and remove their assignments.
+
+```
+var AwFuL_Var_nAmE = "some value";
+```
+
+For example, if you think `AwFuL_Var_nAmE` is a bad identifier, then remove its assigned value and leave it like so:
+
+```
+var AwFuL_Var_nAmE;
+```

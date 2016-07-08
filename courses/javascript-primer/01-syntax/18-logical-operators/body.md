@@ -1,4 +1,4 @@
-<!--{ ids:[], language:'JavaScript', type:'workshop', order: 18, name:'Logical Operators', description:'List the logical operators and explain what they do.' }-->
+<!--{ ids:[143], language:'JavaScript', type:'workshop', order: 17, name:'Logical Operators', description:'Test the relationship between two boolean values' }-->
 
 ### Objectives
 
@@ -43,4 +43,14 @@ true && !false && true // evaluates to true because all three values are true
 
 ### Exercise
 
-There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their lines from the editor.
+There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their assignments.
+
+```
+var logical7 = 42 + 4;
+```
+
+For example, if you think the expression assigned to `logical7` evaluates to `false`, then remove its assigned value and leave it like so:
+
+```
+var logical7;
+```
