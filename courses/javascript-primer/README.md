@@ -18,4 +18,4 @@ After this course students should be able to:
 - Use conditionals to control the flow of your code with `if` and `else` statements.
 - Create, fill, and manipulate the generic JavaScript object literal.
 - Create and manipulate an array.
-- Build `for` and `while` loops to efficiently iterate over code..
+- Build `for` and `while` loops to efficiently iterate over code.
