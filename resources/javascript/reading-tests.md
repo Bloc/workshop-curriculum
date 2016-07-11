@@ -100,7 +100,7 @@ function multiply(x, y) {
 
 But something is wrong. We've ignored the arguments passed in, and instead "hardcoded" the value to be returned. This narrow implementation passes the above test, but will break the instant we test it with different values. If our test passes different numbers to the `multiply` function, as it does below, the above implementation will fail:
 
-```ruby
+```js
 describe("multiply", function() {
   it("multiplies two numbers together", function() {
     var product = multiply(4,3);
@@ -111,7 +111,7 @@ describe("multiply", function() {
 
 To make our implementation more flexible, we'd modify our function:
 
-```ruby
+```js
 function multiply(x, y) {
   return x * y;
 }
