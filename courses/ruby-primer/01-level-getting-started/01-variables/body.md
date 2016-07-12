@@ -1,4 +1,4 @@
-<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Variables', description:'Learn what a variable is, and how to assign a value to a variable.' }-->
+<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Variables', description:'Learn What a Variable Is, and How to Assign a Value to a Variable. } -->
 
 ### Objectives
 
