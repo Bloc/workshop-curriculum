@@ -15,4 +15,4 @@ Don't type anything in your code editor, just click **Run**. You should see an e
 NoMethodError: undefined method 'hello'
 ```
 
-This means that your specs tried to call the `hello` method but couldn't find the method definition. It couldn't find the method because we haven't defined it yet!
+This means that your tests tried to call the `hello` method but couldn't find the method definition. It couldn't find the method because we haven't defined it yet!
