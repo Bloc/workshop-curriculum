@@ -1,11 +1,11 @@
-### The Tests Tab
+### The Specs Tab
 
-Test code is a type of code that tests other code. Wait, what?!? That statement may be confusing at first, but you'll understand after reading this resource. Let's take a look at your Workshop code editor, which has two tabs:
+Specs are a name for code that tests code. Wait, what?!? That statement may be confusing at first, but you'll understand after reading this resource. Let's take a look at your Workshop code editor, which has two tabs:
 
 - Editor tab: this is where you code a solution for a given exercise.
-- Tests tab: this contains test code that tests whether your solution does what the exercise intends.
+- Specs tab: this contains spec code that tests whether your solution does what the exercise intends.
 
-Test code runs your solution code, and outputs the results. If your solution code does what the exercise intends, the tests will pass. If your solution code does not do what the exercise intends, the tests will fail. If you understand how to read test code, you can use it to drive your development. In the coding world, this is known as **test-driven development** and it's an important process for professional coders.
+Spec code runs your solution code, and outputs the results. If your solution code does what the exercise intends, the specs will pass. If your solution code does not do what the exercise intends, the specs will fail. If you understand how to read spec code, you can use it to drive your development. In the coding world, this is known as **test-driven development** and it's an important process for professional coders.
 
 ### Ensuring Your Code Behaves Properly
 
@@ -92,7 +92,7 @@ end
 
 > How would you write this `multiply` method to pass the above test? How many arguments would it take? What would it do with those arguments?
 
-This test sets expectations about the `multiply` method. Specifically, it states an expectation that calling `multiply` with the arguments `3` and `5` will return `15`. Let's take the easiest path towards fulfilling this test by writing the below method:
+This test sets expectations about the `multiply` method. Specifically, it states an expectation that calling `multiply` with the arguments `3` and `5` will return `15`. Let's take the easiest path towards fulfilling this spec by writing the below method:
 
 ```ruby
 def multiply(x, y)
@@ -100,7 +100,7 @@ def multiply(x, y)
 end
 ```
 
-But something is wrong. We've ignored the arguments passed in, and instead "hardcoded" the value to be returned. This narrow implementation passes the above test, but will break the instant we test it with different values. If our test passes different numbers to the `multiply` method, as it does below, the above implementation will fail:
+But something is wrong. We've ignored the arguments passed in, and instead "hardcoded" the value to be returned. This narrow implementation passes the above spec, but will break the instant we test it with different values. If our test passes different numbers to the `multiply` method, as it does below, the above implementation will fail:
 
 ```ruby
 describe "multiply" do
@@ -119,6 +119,6 @@ def multiply(x, y)
 end
 ```
 
-Our method now accounts for any two values to be multiplied, and will pass all the tests.
+Our method now accounts for any two values to be multiplied, and will pass all the specs.
 
-As you can see above, narrow implementations of methods can pass specific tests. Because of this, the tests in the coming exercises will test your code from a variety of angles. Read the tests after the exercise prompt and ensure that you understand what is expected of your code. Our tests will run your code with a variety of arguments, making sure it behaves as intended.
+As you can see above, narrow implementations of methods can pass specific tests. Because of this, the specs in the coming exercises will test your code from a variety of angles. Read the specs after the exercise prompt and ensure that you understand what is expected of your code. Our Specs will run your code with a variety of arguments, making sure it behaves as intended.
