@@ -4,7 +4,7 @@ This repo tracks all exercises for the [Workshop](https://workshop.bloc.io) plat
 
 ## Contributing
 
-[Contribution guidelines for Workshop exercises](https://github.com/Bloc/workshop-curriculm/blob/master/CONTRIBUTING.md).
+[Contribution guidelines for Workshop exercises](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md).
 
 ## Metadata
 
