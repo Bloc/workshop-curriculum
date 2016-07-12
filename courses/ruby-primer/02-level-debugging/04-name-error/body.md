@@ -27,14 +27,3 @@ undefined local variable or method `firs_name'....
 ```
 
 The error is telling us that it couldn't find a variable named "firs_name". This is because the variable we declared in the argument list is named "first_name", but we mistyped it as "firs_name" in the method body.
-
-### Exercise
-
-1. Correct the name error and ensure that the specs pass.
-
-The completed method can be called like this:
-
-```ruby
-puts hello("Oprah", "Winfrey")
-=> "Hello Oprah Winfrey!"
-```
