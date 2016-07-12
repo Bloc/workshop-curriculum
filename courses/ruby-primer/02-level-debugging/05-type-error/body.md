@@ -1,4 +1,4 @@
-<!-- { ids:[65], language:'Ruby', type:'workshop', order: 4, name:'Type Error', description:'Debug your code when a method is implemented with incompatible data types.' }-->
+<!-- { ids:[], language:'Ruby', type:'workshop', order: 4, name:'Type Error', description:'Debug your code when a method is implemented with incompatible data types.' }-->
 
 ### Objectives
 

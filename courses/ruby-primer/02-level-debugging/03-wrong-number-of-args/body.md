@@ -1,4 +1,4 @@
-<!-- { ids:[63], language:'Ruby', type:'workshop', order: 2, name:'Wrong Number of Arguments Error', description:'Debug your code when a method is called with unexpected arguments.' }-->
+<!-- { ids:[], language:'Ruby', type:'workshop', order: 2, name:'Wrong Number of Arguments Error', description:'Debug your code when a method is called with unexpected arguments.' }-->
 
 ### Objectives
 

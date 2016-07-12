@@ -1,4 +1,4 @@
-<!-- { ids:[66], language:'Ruby', type:'workshop', order: 5, name:'Unexpected End Error', description:'Debug your code when a method is implemented with incompatible data types.' }-->
+<!-- { ids:[66], language:'Ruby', type:'workshop', order: 1, name:'Unexpected End Error', description:'Debug your code when a method is implemented with incompatible data types.' }-->
 
 ### Objectives
 
