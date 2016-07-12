@@ -26,14 +26,3 @@ String can't be coerced into Fixnum
 When Ruby tells you it can't coerce one type into another, it means the code expected one type, received a different one, and wasn't able to convert (or "coerce") the wrong type into the new type.
 
 > In this example we are trying to add a string to a number (Fixnum). Ruby does not understand this, so an error is raised.
-
-### Exercise
-
-1. Correct the type error and ensure that the specs pass.
-
-The completed method can be called like this:
-
-```ruby
-puts add(1,2,3)
-=> "1 + 2 = 3"
-```
