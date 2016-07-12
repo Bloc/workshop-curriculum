@@ -1,4 +1,4 @@
-<!-- { ids:[62], language:'Ruby', type:'workshop', order: 1, name:'No Method Error', description:'Debug your code when it doesn't recognize a method.' }-->
+<!-- { ids:[62], language:'Ruby', type:'workshop', order: 1, name:'No Method Error', description:"Debug your code when it doesn't recognize a method." }-->
 
 ### Objectives
 

@@ -1,4 +1,4 @@
-<!-- { ids:[64], language:'Ruby', type:'workshop', order: 3, name:'Name Error', description:'Debug your code when a method is implemented with variables that don't exist.' }-->
+<!-- { ids:[64], language:'Ruby', type:'workshop', order: 3, name:'Name Error', description:"Debug your code when a method is implemented with variables that don't exist." }-->
 
 ### Objectives
 
