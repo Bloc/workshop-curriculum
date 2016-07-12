@@ -23,4 +23,4 @@ Click **Run**. You should see the following error:
 wrong number of arguments (2 for 0)
 ```
 
-The method is being called with two arguments in the specs, but our method doesn't define any arguments.
+The method is being called with two arguments in the tests, but our method doesn't define any arguments.
