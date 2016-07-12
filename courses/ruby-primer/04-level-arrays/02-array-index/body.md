@@ -16,7 +16,7 @@ def not_quite_last(arr)
 end
 ```
 
-In the method implementation above, we performed to operations within the index brackets. First we called the `length` method on our argument array, which returns the number of elements in an array. Next, we subtracted `3` from the length which results in the third to last element's index. For example:
+In the method implementation above, we performed operations within the index brackets. First we called the `length` method on our argument array, which returns the number of elements in an array. Next, we subtracted `3` from the length which results in the third to last element's index. For example:
 
 ```ruby
 puts not_quite_last([1,2,3,4,5,6,7])
