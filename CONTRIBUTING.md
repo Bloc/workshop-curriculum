@@ -17,10 +17,10 @@ Regardless of where the exercise and its content is tracked, the exercise itself
 # Language Exercises
 
 Language exercises are comprised of four files:
-- `body.md` (required): this is where the exercise instructions are written. Instructions should be brief and explicit. There should be three headers for each `body.md` file: ([see complete example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md)
+- `body.md` (required): this is where the exercise objectives and examples are written. There should be two headers for each `body.md` file: ([see complete example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md)
     - `### Objectives`: state the learning objectives for the exercise using [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) and our [approved action words](https://docs.google.com/spreadsheets/d/1yy7IwVvNZoPNb-u-HTYwg4tIStg4z6oSmhRMsHWTerc/edit#gid=350932233).
     - `### Example`: provide instruction and examples that will help the student complete the exercise. Do not give away the answer.
-    - `### Exercise`: State the tasks for the exercise. See the Exercise Prompts section below for structure guidelines.
+- `instructions.md` (required): this is where the exercise instructions are written. Instructions should be numbered, brief, and explicit. See the Exercise Instructions example below.
 - `solution.rb` (required, file extension depends on the language): this is where the canonical solution (as deemed by the exercise's author) is written. The solution must pass all of the specs defined for the exercise.
 - `spec.rb` (required, file extension depends on the language): this is where the specs for the exercise are written. The specs should cover every case for the exercise, and when passed, should ensure a working solution.
 - `starting_code.rb` (optional, file extension depends on the language): this is used for providing students with defauly code to start the exercise.
@@ -33,9 +33,9 @@ TODO
 
 TODO
 
-# Exercise Prompts
+# Exercise Instructions
 
-The following structure should be used for Exercise Prompts ([see example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md#exercise):
+The following structure should be used for Exercise Instructions ([see example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md#exercise):
 
 1. State the method / function to be defined
 2. State the arguments the method should take
