@@ -10,7 +10,7 @@ After this exercise you should be able to:
 
 ### Example
 
-In an `each` loop we can derive the _value_ of an element in the array being iterated over. But we can't easily derive an element's _position_. Knowing the position of an element in a loop is often necessary, and Ruby provides a convenient method for this purpose. Let's take a look at the `each_with_index` method:
+In an `each` loop we can derive the _value_ of an element in the array being iterated over. But we can't easilt derive an element's _position_. Knowing the position of an element in a loop is often necessary, and Ruby provides a convenient method for this purpose. Let's take a look at the `each_with_index` method:
 
 ```ruby
 #1
@@ -30,4 +30,26 @@ This method would generate the following:
 "Arya is at position 0"
 "Sansa is at position 1"
 "Lyanna is at position 2"
+```
+
+### Exercise
+
+1. Define a method named `multiply_the_odds`.
+2. The method should take an array of numbers as an argument.
+3. The method should return the product of all numbers with an odd index position.
+4. The method should return `0` if passed an empty array.
+5. The method should return `1` if passed a single element array.
+
+The completed method can be called like this:
+
+```ruby
+puts multiply_the_odds([1,3,5,7,9,11])
+# multiples 3 * 7 * 11
+=> 231
+
+puts multiply_the_odds([])
+=> 0
+
+puts multiply_the_odds([100])
+=> 1
 ```
