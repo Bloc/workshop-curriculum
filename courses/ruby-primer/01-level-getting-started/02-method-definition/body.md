@@ -34,8 +34,3 @@ The name of the method above is `hello`. To call a method, you simply type the n
 puts hello
 => "Hello world!"
 ```
-
-### Exercise
-
-1. Define a method named `number_of_continents`.
-2. The method should return the number of continents on Earth.
