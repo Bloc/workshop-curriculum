@@ -1,4 +1,4 @@
-<!-- { ids:[124], language:'Ruby', type:'workshop', order: 1, name:'Array Index', description:'Learn how to specify elements in an array using their index.' } -->
+<!-- { ids:[124], language:'Ruby', type:'workshop', order: 1, name:'Array Index', description:'Learn How to Specify Elements in an Array Using Their Index.' } -->
 
 ### Objectives
 
