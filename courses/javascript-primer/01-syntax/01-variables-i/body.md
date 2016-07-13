@@ -4,11 +4,11 @@
 
 After this exercise, you should be able to:
 
-- Declare a variable
-- State what a variable is
 - Recognize the assignment operator
 - State what the assignment operator does
-- Assign a value to a variable
+- State what a variable is
+- Demonstrate how to declare a variable
+- Demonstrate how to assign a value to a variable
 
 ### Example
 

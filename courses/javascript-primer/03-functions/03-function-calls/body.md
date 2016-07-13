@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Call a function
+- Demonstrate how to call a function
 
 ### Example
 

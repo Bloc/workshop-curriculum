@@ -5,7 +5,7 @@
 After this exercise, you should be able to:
 
 - Recognize dot and bracket notation
-- Use dot and bracket notation to add properties to an object
+- Demonstrate how to use dot and bracket notation to add properties to an object
 
 ### Example
 

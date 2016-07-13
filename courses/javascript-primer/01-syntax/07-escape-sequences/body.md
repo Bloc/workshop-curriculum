@@ -7,7 +7,7 @@ After this exercise, you should be able to:
 - Explain what the escape character does
 - List some escape sequences
 - Describe the output of various escape sequences
-- Use escape sequences to display special characters in a string
+- Demonstrate how to use escape sequences
 
 ### Example
 

@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Remove elements from an array
+- Demonstrate how to remove elements from an array
 
 ### Example
 

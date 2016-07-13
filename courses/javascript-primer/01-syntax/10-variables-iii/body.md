@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Change the value of a variable
+- Demonstrate how to change the value of a variable
 
 ### Example
 

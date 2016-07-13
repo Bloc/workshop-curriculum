@@ -5,7 +5,7 @@
 After this exercise, you should be able to:
 
 - Recognize the escape character
-- Use the escape character to treat quotation marks as string characters
+- Demonstrate how to use the escape character
 
 ### Example
 

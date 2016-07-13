@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Get the index of an element
+- Demonstrate how to get the index of an element
 
 ### Example
 

@@ -5,7 +5,7 @@
 After this exercise, you should be able to:
 
 - Recognize a `switch` statement
-- Write a `switch` statement
+- Demonstrate how to write a `switch` statement
 
 ### Example
 

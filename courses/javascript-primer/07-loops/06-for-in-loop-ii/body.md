@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Write a `for...in` loop
+- Demonstrate how to write a `for...in` loop
 
 ### Exercise
 

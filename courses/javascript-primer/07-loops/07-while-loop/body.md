@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize a `while` loop
 - Explain what a `while` loop is used for
-- Write a `while` loop
+- Demonstrate how to write a `while` loop
 
 ### Example
 

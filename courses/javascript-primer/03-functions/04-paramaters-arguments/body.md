@@ -4,8 +4,8 @@
 
 After this exercise, you should be able to:
 
-- Declare a function with parameters
-- Call a function with arguments
+- Demonstrate how to declare a function with parameters
+- Demonstrate how to call a function with arguments
 
 ### Example
 

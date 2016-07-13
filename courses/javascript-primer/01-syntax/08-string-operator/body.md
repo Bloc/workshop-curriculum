@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize the string operator
 - Explain what the string operator does
-- Use the string operator to concatenate a string
+- Demonstrate how to use the string operator to concatenate a string
 
 ### Example
 

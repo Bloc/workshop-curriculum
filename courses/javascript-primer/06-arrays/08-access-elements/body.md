@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Access elements in an array with bracket notation
+- Demonstrate how to access elements in an array with bracket notation
 
 ### Example
 

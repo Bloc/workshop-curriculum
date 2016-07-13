@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize an `else if` statement
 - Explain what an `else if` statement is used for
-- Write an `else if` statement
+- Demonstrate how to write an `else if` statement
 
 ### Example
 

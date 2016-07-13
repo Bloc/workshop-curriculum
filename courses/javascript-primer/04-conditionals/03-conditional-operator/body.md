@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize the conditional operator
 - Explain when to use the conditional operator
-- Use the conditional operator
+- Demonstrate how to use the conditional operator
 
 ### Example
 

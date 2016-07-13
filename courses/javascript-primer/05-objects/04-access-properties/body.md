@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Access properties using dot or bracket notation
+- Demonstrate how to access properties using dot or bracket notation
 - Explain the differences between dot and bracket notation
 
 ### Example

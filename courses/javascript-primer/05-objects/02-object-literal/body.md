@@ -5,7 +5,7 @@
 After this exercise, you should be able to:
 
 - Recognize an object
-- Create an object using literal notation
+- Demonstrate how to create an object literal
 
 ### Example
 

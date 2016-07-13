@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Get the length of an array
+- Demonstrate how to get the length of an array
 
 ### Example
 

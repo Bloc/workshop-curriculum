@@ -4,8 +4,8 @@
 
 After this exercise, you should be able to:
 
-- Assign a function as the value of a property
-- Call a method
+- Demonstrate how to assign a function as the value of a property
+- Demonstrate how to call a method
 
 ### Example
 

@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize a `do...while` loop
 - Explain the difference between a `while` loop and a `do...while` loop
-- Write a `do...while` loop
+- Demonstrate how to write a `do...while` loop
 
 ### Example
 

@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Explain what type coercion is
 - Explain what each comparison operator does
-- Use the comparison operators to compare values
+- Demonstrate how to use the comparison operators
 
 ### Example
 

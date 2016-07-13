@@ -4,8 +4,8 @@
 
 After this exercise, you should be able to:
 
-- Assign an object as the value of a property
-- Access the values of nested object properties
+- Demonstrate how to assign an object as the value of a property
+- Demonstrate how to access the values of nested object properties
 
 ### Example
 
