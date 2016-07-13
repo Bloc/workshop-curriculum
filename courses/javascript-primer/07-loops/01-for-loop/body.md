@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize a `for` loop
 - State what a `for` loop is used for
-- Write a `for` loop
+- Demonstrate how to write a `for` loop
 
 ### Example
 

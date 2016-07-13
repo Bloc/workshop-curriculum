@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Declare a function
+- Demonstrate how to declare a function
 
 ### Example
 

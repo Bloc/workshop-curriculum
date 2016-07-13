@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Use multiple array methods at the same time
+- Demonstrate how to use multiple array methods at the same time
 
 ### Example
 

@@ -4,8 +4,8 @@
 
 After this exercise, you should be able to:
 
-- Assign a string value to a variable
-- Assign a boolean value to a variable
+- Demonstrate how to assign a string value to a variable
+- Demonstrate how to assign a boolean value to a variable
 
 ### Exercise
 

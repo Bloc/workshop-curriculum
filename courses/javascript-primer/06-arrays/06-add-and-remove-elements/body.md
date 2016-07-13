@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Use the `splice()` method to manipulate an array
+- Demonstrate how to use the `splice()` method to manipulate an array
 
 ### Example
 

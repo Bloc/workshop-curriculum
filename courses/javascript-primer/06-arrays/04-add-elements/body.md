@@ -4,8 +4,8 @@
 
 After this exercise, you should be able to:
 
-- Add elements to an array
-- Change the values of elements in an array
+- Demonstrate how to add elements to an array
+- Demonstrate how to change the values of elements in an array
 - Recognize array methods
 
 ### Example

@@ -5,7 +5,7 @@
 After this exercise, you should be able to:
 
 - Recognize an array
-- Create an array
+- Demonstrate how to create an array
 
 ### Example
 

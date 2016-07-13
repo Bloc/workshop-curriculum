@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Write an `else if` statement that checks many conditions
+- Demonstrate how to write an `else if` statement that checks many conditions
 
 ### Exercise
 

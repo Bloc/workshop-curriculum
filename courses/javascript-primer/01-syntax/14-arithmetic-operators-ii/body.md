@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - List some non-standard arithmetic operators
 - Explain what the non-standard arithmetic operators do
-- Use non-standard arithmetic operators to create expressions
+- Demonstrate how to use non-standard arithmetic operators
 
 ### Example
 

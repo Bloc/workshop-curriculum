@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize a `for...in` loop
 - Explain what a `for...in` loop is used for
-- Write a `for...in` loop
+- Demonstrate how to write a `for...in` loop
 
 ### Example
 

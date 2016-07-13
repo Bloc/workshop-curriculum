@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - Recognize a function expression
 - Explain how a function expression and declaration differ
-- Write a function expression
+- Demonstrate how to write a function expression
 
 ### Example
 

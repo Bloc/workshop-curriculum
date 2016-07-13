@@ -4,7 +4,7 @@
 
 After this exercise, you should be able to:
 
-- Use a `for` loop to iterate over an array
+- Demonstrate how to use a `for` loop to iterate over an array
 
 ### Example
 

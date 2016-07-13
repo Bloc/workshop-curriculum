@@ -6,7 +6,7 @@ After this exercise, you should be able to:
 
 - List the standard arithmetic operators
 - Explain what the standard arithmetic operators do
-- Use the standard arithmetic operators to create expressions
+- Demonstrate how to use the standard arithmetic operators
 
 ### Example
 
