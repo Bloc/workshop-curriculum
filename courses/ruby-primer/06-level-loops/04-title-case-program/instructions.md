@@ -19,6 +19,6 @@ Ruby has some convenient methods that will help you build this program. Review t
 - String `capitalize` converts the first character in a string to uppercase.
 - Array `include?` checks to see if an object is part of an array.
 - Array `each_with_index` can be used to detect when you're on the first word of the title, which should always be capitalized.
-- String `join` creates a string from an array.
+- Array `join` creates a string from an array.
 
 > This program will challenge you, but you've learned everything you need to complete it. Make sure you review the methods above as they will help you complete this program.
