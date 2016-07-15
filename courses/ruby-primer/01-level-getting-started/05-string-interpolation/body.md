@@ -4,11 +4,11 @@
 
 After this exercise you should be able to:
 
-- Understand how to insert variables in a string.
+- Insert variables into a string.
 
 ### Example
 
-String interpolation is the act of inserting variables into a string. This is useful for sending customized messages to a user of your program. Let's write a simple program that can be used to welcome visitors to a new country:
+Interpolation converts data into readable strings. This process can help you send customized messages to your users. Let's write a simple program that welcomes visitors to a new country:
 
 ```ruby
 def welcome_to(country)
@@ -16,14 +16,14 @@ def welcome_to(country)
 end
 ```
 
-This syntax – `#{ }` denotes the variable to be interpolated. When used in a string, it will print the variable provided as part of the string. When called, this would return:
+Strings will interpolate the statements in curly braces – `#{ }`. When used with a variable, the string will include the value of the varialbe as part of the string. If we call `welcome_to` with, "Japan," this returns:
 
 ```ruby
 puts welcome_to("Japan")
 => "Welcome to Japan, enjoy your stay!"
 ```
 
-One of the great thing about interpolated variables is that they're not limited to strings. We'll cover numbers later, but here's a glimpse of how we can interpolate numbers in a string:
+And interpolated statements are not limited to strings! We'll cover numbers later, but here's a glimpse of how to interpolate them:
 
 ```ruby
 def add_numbers(number1, number2)
@@ -31,7 +31,7 @@ def add_numbers(number1, number2)
 end
 ```
 
-When we pass two numbers to this method, our numbers will be interpolated as strings, as will the sum operation (`#{number1 + number2}`):
+When we pass two numbers to this method, the string interpolates our numbers and the summation (`#{number1 + number2}`):
 
 ```ruby
 puts add_numbers(2,5)
