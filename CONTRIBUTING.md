@@ -8,9 +8,9 @@ Workshop exercise content falls in three categories:
 
 The content for the different exercise types is tracked in the following locations:
 
-- Language exercises are tracked in this repository, in the [`workshop-curriculum`](https://github.com/Bloc/curriculum/tree/master/workshop-curriculum) directory.
-- Framework exercises are tracked in a standalone repository, where the exercise's framework is tracked. For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
-- Session exercises are tracked in this repository, in the [`workshop-curriculum`](https://github.com/Bloc/curriculum/tree/master/workshop-curriculum) directory.
+- Language exercises are tracked in this repository.
+- Framework exercises are tracked in standalone repositories, where the exercise's framework is tracked. For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
+- Session exercises are tracked in this repository.
 
 Regardless of where the exercise and its content is tracked, the exercise itself is deployed in the [Workshop app](https://workshop.bloc.io). The code for Workshop can be found in the [`Workshop`](https://github.com/Bloc/workshop) repository.
 
