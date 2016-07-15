@@ -2,6 +2,8 @@
 
 This repo tracks all exercises for the [Workshop](https://workshop.bloc.io) platform.
 
+Content for each course can be found in [`/courses/`](https://github.com/Bloc/workshop-curriculum/tree/master/courses).
+
 ## Contributing
 
 [Contribution guidelines for Workshop exercises](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md).
