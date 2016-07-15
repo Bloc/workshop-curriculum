@@ -4,7 +4,7 @@
 
 After this exercise you should be able to:
 
-- Define what an argument is.
+- Define a method argument.
 - Understand how to use an argument in a method.
 
 ### Example
@@ -22,9 +22,9 @@ def add(a,b)
 end
 ```
 
-Arguments are variables that can be used within the method. In the `add` method above, we calculate the sum of the `a` and `b` values. A method can have any number of arguments, or no arguments at all.
+Arguments are external variables that we may use within a method. A method can request any number of arguments, or none at all.
 
-We can call the `add` method with different arguments:
+In the `add` method above, we calculate the sum of `a` and `b`. We can call the `add` method with different arguments:
 
 ```ruby
 puts add(1,2)
