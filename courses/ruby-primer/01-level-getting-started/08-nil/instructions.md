@@ -1,11 +1,11 @@
 ### Exercise
 
-- Define a method named, `which_hand?`.
-- It takes two arguments: `left` and `right`
-- If `left` is `nil`, return `right`.
-- If `right` is `nil`, return `left`.
-- If both are `nil`, return the string, "You're cheating!"
-- If neither value is `nil`, return `nil`.
+1. Define a method named, `which_hand?`.
+2. It takes two arguments: `left` and `right`
+3. If `left` is `nil`, return `right`.
+4. If `right` is `nil`, return `left`.
+5. If both are `nil`, return the string, "You're cheating!"
+6. If neither value is `nil`, return `nil`.
 
 In use:
 

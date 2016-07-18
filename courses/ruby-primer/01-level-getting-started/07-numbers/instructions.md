@@ -10,11 +10,11 @@ If you don't recall, the Pythagorean theorem allows us to calculate the length o
 
 Your job is to calculate the missing side!
 
-- Define a function named `pythagorean_theorem`
-- It must accept three arguments: a, b, and c
-- One of the arguments will always be `0` - this is the missing side!
-- The other arguments are valid lengths that correspond to their side of a triangle (either a, b, or c)
-- Return the length of the missing side!
+1. Define a function named `pythagorean_theorem`
+2. It must accept three arguments: a, b, and c
+3. One of the arguments will always be `0` - this is the missing side!
+4. The other arguments are valid lengths that correspond to their side of a triangle (either a, b, or c)
+5. Return the length of the missing side!
 
 > Hint: to get the square root of a number, `4` for example, calculate its `0.5` exponent, `4 ** 0.5`
 
