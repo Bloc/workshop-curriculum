@@ -4,22 +4,58 @@
 
 After this exercise you should be able to:
 
-- State the concept of nil.
-- Describe if an object is nil.
+- Understand `nil`.
+- Describe whether an object is `nil`.
 
 ### Example
 
-There's a special data type in Ruby known as `nil`. Nil is a representation of nothingness. Nil is important in programming because it helps programmers determine the validity of an operation. Review the following statement:
+`nil` is a special data type that represents nothingness and helps us determine whether an operation is valid.
 
+Consider the following method (defined in section 1):
 
 ```ruby
-puts "Bloc"[7]
+def capitalize_me(string)
+  string.capitalize
+end
 ```
 
-We are using bracket notation to refer to a character in the string "Bloc". This – `[7]` tells Ruby to return the 8th character in the string.
+If we invoke this method with a string, we get the result you expect:
 
-> It's asking for the 8th, not the 7th, because counting in programming starts at `0`. For example, `"Bloc"[0] would return "B"`.
+```ruby
+puts capitalize_me("hello!")
+#=> "Hello!"
+```
 
-But there is no 8th character in the string "Bloc" – that particular string only has four characters. Since we are asking Ruby to return a value for which nothing exists, the result in `nil`.
+But if we pass _nothing_, (`nil`), we get an error:
 
-`nil` is different than `0` or a blank string (`""`). `nil` represents nothingness.
+```ruby
+capitalize_me(nil)
+
+#=> undefined method 'capitalize' for nil:NilClass
+#=> in 'capitalize_me'
+```
+
+Try it yourself! In section 2 of your sample code, call `capitalize_me` with `nil` as the argument, then run the code.
+
+_What's happened?_ In most programming languages we cannot call methods on non-existent values. `nil` isn't a string, it's _nothing_.
+
+The Ruby interpreter claims the method named, `capitalize`, does not exist for `nil`, which is correct. `capitalize` exists for [String](http://ruby-doc.org/core-2.2.3/String.html#method-i-capitalize) objects, but not for `nil`.
+
+To keep our `capitalize_me` from crashing our program, we can check for `nil` before we capitalize it:
+
+```ruby
+def capitalize_me(string)
+  if string.nil?
+    return ""
+  end
+  string.capitalize
+end
+```
+
+> `return` stops execution and jumps back to where the method was called.
+
+The `.nil?` method returns `true` if the value is `nil`, and in that case, our method will return an empty string ("").
+
+If the argument is `nil`, `capitalize_me` exits early with a `return` statement. This prevents the method from trying to capitalize a non-existent value.
+
+Add the `nil` check to `capitalize_me` in section 1 and run your code again; it won't crash this time, we promise!
