@@ -16,7 +16,7 @@ Your job is to calculate the missing side!
 - The other arguments are valid lengths that correspond to their side of a triangle (either a, b, or c)
 - Return the length of the missing side!
 
-> Hint: to get the square root of a number, `4` for example, calculate its `.5` exponent, `4 ** .5`
+> Hint: to get the square root of a number, `4` for example, calculate its `0.5` exponent, `4 ** 0.5`
 
 Given this triangle:
 
