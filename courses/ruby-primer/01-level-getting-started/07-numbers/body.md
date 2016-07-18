@@ -5,11 +5,11 @@
 After this exercise you should be able to:
 
 - Define a number data type.
-- Understand how to add, subtract, multiply, and divide numbers.
-- Understand how to calculate exponential values.
-- Understand how to calculate the remainder of a quotient.
-- Understand how to return a number from a method.
-- Understand how to print a number.
+- Add, subtract, multiply, and divide numbers.
+- Calculate exponential values.
+- Calculate the remainder of a quotient.
+- Return a number from a method.
+- Print a number.
 
 ### Example
 
