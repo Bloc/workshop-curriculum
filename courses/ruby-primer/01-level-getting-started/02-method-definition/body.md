@@ -30,9 +30,9 @@ The code that determines what the method will return is written between the `def
 
 The name of the method above is `hello`. To call a method, you type the name of the method. By calling the method after `puts` you are instructing the computer to execute the code written in the `hello` method, and print it to the screen with `puts`.
 
-Lastly, the last line of code in a method is _usually_ the return value. Some exceptions apply, but for now, assume that the value at the bottom of the method is what the method returns. In our example, `hello` returns the string value, "Hello world!"
+The last line of code in a method is _usually_ the return value. Some exceptions apply, but assume that the value at the bottom of the method is what the method returns, and all methods return something.
 
-Print the result of calling `hello` by adding a `puts` statement at **section 2** of your sample code.
+In our example, `hello` returns the string value, "Hello world!" Print the result of calling `hello` by adding a `puts` statement at **section 2** of your sample code.
 
 ```ruby
 puts hello

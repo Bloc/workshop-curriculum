@@ -12,14 +12,14 @@ After this exercise you should be able to:
 
 A boolean is another data type. Like a string, a boolean represents a certain value. While a string represents a character, word, or sentence, a boolean can only represent one of two values – `true` or `false`.
 
-A boolean requires a true / false question to be asked. We can ask true / false questions with comparison operators. Comparison operators evaluate to `true` or `false`. The operators available in Ruby are:
+A boolean requires a true / false question to be asked. We can ask true / false questions with comparison operators. These operators compare two statements (left, right) and evaluate to `true` or `false`. The operators available in Ruby are:
 
-- `A == B` returns `true` if A and B are equal.
-- `A > B` returns `true` if A is greater than B.
-- `A < B` returns `true` if A is less than B.
-- `A >= B` returns `true` if A is greater than or equal to B.
-- `A <= B` returns `true` if A is less than or equal to B.
-- `A != B` returns `true` if A and B differ.
+- `L == R` returns `true` if L and R are equal.
+- `L > R` returns `true` if L is greater than R.
+- `L < R` returns `true` if L is less than R.
+- `L >= R` returns `true` if L is greater than or equal to R.
+- `L <= R` returns `true` if L is less than or equal to R.
+- `L != R` returns `true` if L and R differ.
 
 We can compare strings:
 

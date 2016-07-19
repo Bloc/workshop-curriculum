@@ -13,7 +13,7 @@ hours_to_minutes(1)
 hours_to_minutes(1.5)
 #=> 90
 
-hours_to_minutes(.5)
+hours_to_minutes(0.5)
 #=> 30
 ```
 

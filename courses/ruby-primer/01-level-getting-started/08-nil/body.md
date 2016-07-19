@@ -56,6 +56,6 @@ end
 
 The `.nil?` method returns `true` if the value is `nil`, and in that case, our method will return an empty string ("").
 
-If the argument is `nil`, `capitalize_me` exits early with a `return` statement. This prevents the method from trying to capitalize a non-existent value.
+If the argument is `nil`, `capitalize_me` exits early with a `return` statement. This prevents the method from trying to capitalize a non-existent value. Returning early is the only acceptable use of the `return` statement, and we use it when an error occurs.
 
 Add the `nil` check to `capitalize_me` in section 1 and run your code again; it won't crash this time, we promise!
