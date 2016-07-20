@@ -1,3 +1,3 @@
-de hello
+de hello(naem)
   "Hello #{name}!"
 end
