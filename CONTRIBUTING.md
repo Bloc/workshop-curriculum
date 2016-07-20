@@ -3,16 +3,15 @@
 Workshop exercise content falls in three categories:
 
 - Language exercise: an exercise based on a specific programming language, like Ruby, JavaScript, or Clojure.
-- Framework exercise: an exercise based on a framework or markup language, like HTML, CSS, Rails, or Angular.
-- Session exercise: an exercise that requires the student to have a terminal session, like Unix or Git.
+- Repo exercise: an exercise based on a framework or markup language, like HTML, CSS, Rails, or Angular.
 
 The content for the different exercise types is tracked in the following locations:
 
-- Language exercises are tracked in this repository and can be found in the [`/courses`](https://github.com/Bloc/workshop-curriculum/tree/master/courses) directory.
-- Framework exercises are tracked in standalone repositories because they require a distinct repository that is automatically forked for a user who starts a framework course. For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
-- Session exercises are tracked in this repository and can be found in the [`/courses`](https://github.com/Bloc/workshop-curriculum/tree/master/courses) directory.
+- Language exercises are tracked in the [`/courses`](https://github.com/Bloc/workshop-curriculum/tree/master/courses) directory of this repository
+- Repo exercises are tracked in standalone repositories, which are automatically cloned when users start these courses.
+    > For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
 
-Regardless of where the exercise is tracked, the exercise itself is deployed to the [Workshop app](https://workshop.bloc.io). The code for Workshop can be found in the [`Workshop`](https://github.com/Bloc/workshop) application repository.
+All exercises are deployed to the [Workshop app](https://workshop.bloc.io) and the code for Workshop can be found in the [`Workshop`](https://github.com/Bloc/workshop) application repository.
 
 # Language Exercises
 
@@ -20,14 +19,16 @@ Language exercises are comprised of five files:
 - `body.md` (required): this is where the exercise objectives and examples are written. There should be two headers for each `body.md` file: ([see complete example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md)
     - `### Objectives`: state the learning objectives for the exercise using [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) and our [approved action words](https://docs.google.com/spreadsheets/d/1yy7IwVvNZoPNb-u-HTYwg4tIStg4z6oSmhRMsHWTerc/edit#gid=350932233).
     - `### Example`: provide context and examples that will help the student complete the exercise. Do not give away the answer.
-- `instructions.md` (required): this is where the exercise instructions are written. Instructions should be numbered, brief, and explicit. See the [Exercise Instructions](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md#exercise-instructions) section below for a detailed example.
+- `instructions.md` (required): this is where the exercise instructions are written. Instructions should be numbered, brief, and explicit. See the [Exercise Instructions](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md#exercise-instructions) section for a detailed example.
 - `solution.rb` (required, file extension depends on the language): this is where the canonical solution (as deemed by the exercise's author) is written. The solution must pass all of the specs for the exercise.
 - `spec.rb` (required, file extension depends on the language): this is where the specs for the exercise are written. The specs should cover every case for the exercise, and when passed, should ensure a working solution.
 - `starting_code.rb` (optional, file extension depends on the language): this is used for providing students with default code to start the exercise.
 
-# Framework Exercises
+# Repo Exercises
 
-Framework exercises are stored in separate repositories. Their repository is automatically forked for a user who starts a course with framework exercises. An example of a course with framework exercises is [HTML and CSS Primer](https://github.com/Bloc/workshop-html-css). Framework courses require the following:
+Standalone repositories contain exercises, specs, and other content for Repo Exercises. [Snoop](https://github.com/Bloc/snoop) automatically clones these repos when a student starts one of these courses.
+
+Repo courses require the following:
 
 - An open-source repository created under the Bloc GitHub account.
     > Ask [Mike](mailto:mike@bloc.io) to create a new repository if you want to start a new course.
@@ -41,12 +42,6 @@ Framework exercises are stored in separate repositories. Their repository is aut
 - A [`LICENSE`](https://github.com/Bloc/workshop-html-css/blob/master/LICENSE.md). A framework course repository should have an MIT license.
 - A [`README`](https://github.com/Bloc/workshop-html-css/blob/master/README.md) which provides a brief description of the course and where to find it in the Workshop platform.
 - A [`workshop.json`](https://github.com/Bloc/workshop-html-css/blob/master/workshop.json) file which specifies the directories that a user should _not_ see in their file navigator in the Workshop platform.
-
-# Session Exercises
-
-TODO
-
-> Session exercises are not yet implemented in the Workshop platform application.
 
 # Exercise Instructions
 
