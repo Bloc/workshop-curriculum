@@ -1,6 +1,6 @@
 # Content Organization
 
-Workshop exercise content falls in three categories:
+Workshop exercise content falls in two categories:
 
 - Language exercise: an exercise based on a specific programming language, like Ruby, JavaScript, or Clojure.
 - Repo exercise: an exercise based on a framework or markup language, like HTML, CSS, Rails, or Angular.
@@ -9,7 +9,8 @@ The content for the different exercise types is tracked in the following locatio
 
 - Language exercises are tracked in the [`/courses`](https://github.com/Bloc/workshop-curriculum/tree/master/courses) directory of this repository
 - Repo exercises are tracked in standalone repositories, which are automatically cloned when users start these courses.
-    > For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
+
+> For example, the Introduction to HTML and CSS Workshop course is tracked in the [`workshop-html-css`](https://github.com/Bloc/workshop-html-css) repository.
 
 All exercises are deployed to the [Workshop app](https://workshop.bloc.io) and the code for Workshop can be found in the [`Workshop`](https://github.com/Bloc/workshop) application repository.
 
@@ -54,7 +55,7 @@ The following structure should be used for Exercise Instructions ([see example](
 5. Show an example of the implemented method / function being called.
 6. Add any notes, if necessary.
 
-Here's an example for a Numbers exercise in the Ruby Primer course:
+## Exercise Example 1
 
 1. Define a method named `fun_with_math`.
 2. The method should take four number arguments.
@@ -72,7 +73,7 @@ puts fun_with_math(4,3,2,1)
 ```
 ***
 
-Here's an example for a Strings exercise in the Ruby Primer course:
+## Exercise Example 2
 
 1. Define a method named `reverse_me`.
 2. The method should take a string as an argument.
