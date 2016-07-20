@@ -1,6 +1,6 @@
 # Workshop Curriculum
 
-This repo tracks all exercises for the [Workshop](https://workshop.bloc.io) platform.
+This repo tracks all courses and exercises for the [Workshop](https://workshop.bloc.io) platform.
 
 Content for each course can be found in [`/courses/`](https://github.com/Bloc/workshop-curriculum/tree/master/courses).
 
@@ -9,6 +9,8 @@ Content for each course can be found in [`/courses/`](https://github.com/Bloc/wo
 [Contribution guidelines for Workshop exercises](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md).
 
 ## Metadata
+
+> This section is for repo admins only. Currently, only members of Bloc's Curriculum Team are designated as admins. The Curriculum Team will review all issues and pull requests, and insert metadata as appropriate. **All other contributors can ignore this section.**
 
 Each exercise requires a `body.md` file which defines the challenges the student must complete. At the top of each exercise you must include metadata. Here's an example:
 
