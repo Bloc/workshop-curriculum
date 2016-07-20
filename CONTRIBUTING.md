@@ -39,7 +39,7 @@ Repo courses require the following:
         - `### Exercise`: this is where the exercise instructions are written. Instructions should be numbered, brief, and explicit. See the [Exercise Instructions](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md#exercise-instructions) section below for a detailed example.
 - A [`/spec`](https://github.com/Bloc/workshop-html-css/tree/master/spec) directory which tracks spec files. A spec file cooresponds to a specific exercise.
 - A [Docker file](https://github.com/Bloc/workshop-html-css/blob/master/Dockerfile) which builds a container for the user.
-- A [`LICENSE`](https://github.com/Bloc/workshop-html-css/blob/master/LICENSE.md). A framework course repository should have an MIT license.
+- A [`LICENSE`](https://github.com/Bloc/workshop-html-css/blob/master/LICENSE.md). A repo course repository should have an MIT license.
 - A [`README`](https://github.com/Bloc/workshop-html-css/blob/master/README.md) which provides a brief description of the course and where to find it in the Workshop platform.
 - A [`workshop.json`](https://github.com/Bloc/workshop-html-css/blob/master/workshop.json) file which specifies the directories that a user should _not_ see in their file navigator in the Workshop platform.
 
