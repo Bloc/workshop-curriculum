@@ -10,36 +10,38 @@ After this exercise you should be able to:
 
 ### Example
 
-Our apple stand program provides two different responses based on the amount of money a customer pays us. Our customers seem to fall into three groups though: the swindler who pays too little, the flaunter who pays too much, and the lover of fair trade who pays us what the apple costs. We can account for all three customer types with an `elsif` expression:
+Our apple stand program provides two different responses based on the amount of money a customer pays us. Our customers seem to fall into three groups though: those who pay too little, those who overpay, and those that pay the exact price. We can account for all three customer types with an `elsif` expression:
 
 ```ruby
-def can_buy_apple_with(money)
+def can_buy_apple_with?(money)
   if money == 2
-    "Here's your delicious apple!"
+    1
   elsif money < 2
-    "I'm sorry, this apple costs $2.00, you swindler!"
+    0
   else
-    "I'm sorry, this apple costs $2.00. Go flaunt your money elsewhere!"
+    (money / 2.0).floor
   end
 end
 ```
 
-We used `elsif` (note that there's no "e") to create another condition. We could've used an `elsif` to assess if `money` is greater than `2` (the "flaunter" condition), but we used `else`. We used `else` because it's the only other condition that could be met in this program – that is, if `money` is not equal to 2, and it is not less than 2, it must be greater than 2.
+We used `elsif` (no "e") to create another condition, and it checks if `money` is less than 2. We used `else` for the greater condition because it's the only other option available – that is, if `money` is _not equal to 2_, and it is _not less than 2_, then it must be _greater than 2_.
 
-Let's call this method and see what happens:
+In our `else` option, we divide `money` by `2.0` and call `floor` on the result to determine how many apples the customer can afford. Let's call this method and see what happens:
 
 ```ruby
-# The customer tries to swindle us, so NO APPLE FOR YOU!
-can_buy_apple_with(1)
-=> "I'm sorry, this apple costs $2.00, you swindler!"
+can_buy_apple_with?(1)
+=> 0
 
-# the customer is flaunting their money, so NO APPLE FOR YOU!
-can_buy_apple_with(5)
-=> "I'm sorry, this apple costs $2.00. Go flaunt your money elsewhere!"
+can_buy_apple_with?(5)
+=> 2
 
-# the customer believes in fair trade!
-can_buy_apple_with(2)
-=> "Here's your delicious apple!"
+can_buy_apple_with?(2.57)
+=> 1
+
+can_buy_apple_with?(2)
+=> 1
 ```
 
 Our apple program certainly has some _byte_, doesn't it?
+
+> We're sorry, please forgive us.

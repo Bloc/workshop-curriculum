@@ -1,23 +1,20 @@
 ### Exercise
 
 1. Define a method named `tweet_length`.
-2. The method should take a string argument.
-3. The method should return a string that reads `"You tweeted a perfect tweet!"` if the argument is exactly 140 characters.
-4. If the argument is longer than 140 characters, return a string that tells the user how many characters they were over the limit. If the argument is 145 characters the message should read `"You are 5 characters over your limit of 140!"`.
-5. If the argument is less than 140 characters, return a string that tells the user how many characters they were under the limit. If the argument is 135 characters the message should read `"You can use 5 more characters if you want!"`.
+2. The method should take a single argument, the number of characters in the tweet.
+3. The method should return, "Tweet Posted" if the number of characters is _exactly_ 140.
+4. The method should return the number of characters remaining if the number of characters used is less than 140.
+5. Lastly, the method should return (in the negative) the number of characters the user must delete if the number exceeds 140.
 
-The completed method can be called like this:
+In use:
 
 ```ruby
-puts tweet_length("X"*145)
+puts tweet_length(145)
+=> -5
 
-=> "You are 5 characters over your limit of 140!"
+puts tweet_length(135)
+=> 5
 
-puts tweet_length("Y"*135)
-=> "You can use 5 more characters if you want!"
-
-puts tweet_length("Z"*140)
-=> "You tweeted a perfect tweet!"
+puts tweet_length(140)
+=> 0
 ```
-
-> We used a trick in the method calls above. Ruby allows us to multiple a string by a number. For example "A"*3 will return "AAA".
