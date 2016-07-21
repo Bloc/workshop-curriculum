@@ -30,3 +30,11 @@ num = num - 1;  // num evaluates to 2
 num = num * 15; // num evaluates to 30
 num = num / 3;  // num evaluates to 10
 ```
+
+Or multiple variables:
+
+```js
+var width = 3;
+var height = 4;
+var area = width * height; // evaluates to 12
+```
