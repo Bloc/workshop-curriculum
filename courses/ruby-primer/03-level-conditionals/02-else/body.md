@@ -10,32 +10,33 @@ After this exercise you should be able to:
 
 ### Example
 
-Our apple stand program will give an apple to a customer who pays us $2.00, but if the customer gives us a different amount, our program does nothing. (It returns `nil`, and `nil` represents nothingness.) We're basically staring blankly at any customer who gives us an amount other than $2.00. That's super awkward, and we can do better. We need to account for the condition when a customer gives us more or less than $2.00. We can do this with an `else` expression:
+Our apple stand returns `true` to customers who pay us at least $2.00, but `nil` to those who don't. We can handle the customers who pay us less than $2.00 with an `else` expression:
 
 ```ruby
-def can_buy_apple_with(money)
-  if money == 2
-    "Here's your delicious apple!"
+def can_buy_apple_with?(money)
+  if money >= 2
+    return true
   else
-    "I'm sorry, this apple costs $2.00."
+    return false
   end
 end
 ```
 
+> Challenge: the logic in this method is relatively simple, can you think of a way to shorten it to a single line?
+
 Let's call this method and see what happens:
 
 ```ruby
-# The customer tries to swindle us, so NO APPLE FOR YOU!
-can_buy_apple_with(1)
-=> "I'm sorry, this apple costs $2.00."
+can_buy_apple_with?(1)
+=> false
 
-# the customer is flaunting their money, so NO APPLE FOR YOU!
-can_buy_apple_with(5)
-=> "I'm sorry, this apple costs $2.00."
+can_buy_apple_with?(5)
+=> true
 
-# the customer believes in fair trade!
-can_buy_apple_with(2)
-=> "Here's your delicious apple!"
+can_buy_apple_with?(2)
+=> true
 ```
 
-In the example above we used an `else` to handle the condition where `money` is not equal to 2. We didn't need to specify a condition for `else` because it will handle the opposite of the `if` condition – any value that is not equal to 2. In other words, when the `if` expression evaluates to `false`, the code in the `else` branch will be executed.
+We used an `else` to handle the condition where `money` is not greater than or equal to 2. We didn't need to specify a conditional statement for `else` because it executes as long as the `if` conditional is `false`.
+
+Semantically, it's like saying, "if the customer has two or more dollars, they receive an apple, otherwise they do not."

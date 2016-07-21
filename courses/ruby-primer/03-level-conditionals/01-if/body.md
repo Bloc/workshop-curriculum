@@ -32,7 +32,6 @@ def can_buy_apple_with?(money)
   if money >= 2
     return true
   end
-  false
 end
 ```
 
@@ -42,7 +41,7 @@ Let's call this method and see what happens:
 
 ```ruby
 can_buy_apple_with?(1)
-=> false
+=> nil
 
 can_buy_apple_with?(5)
 => true
@@ -52,5 +51,3 @@ can_buy_apple_with?(2)
 ```
 
 The `if` expression decides what to do based on the `money` argument, and returns the appropriate value.
-
-> For Fun: the logic in this method is relatively simple, can you think of a way to shorten it to one line?

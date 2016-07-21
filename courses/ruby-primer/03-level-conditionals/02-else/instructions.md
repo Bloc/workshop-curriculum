@@ -1,17 +1,22 @@
 ### Exercise
 
 1. Define a method named `tweet_length`.
-2. The method should take a string argument.
-3. The method should return a string that reads `"You tweeted!"` if the argument is 140 characters or less.
-4. If the argument is longer than 140 characters, return a string that tells the user how many characters they were over the limit. If the argument is 145 characters the message should read `"You are 5 characters over your limit of 140!"`.
+2. The method should take a single argument, the number of characters in the tweet.
+3. The method should return `0` if the number of characters is less than or equal to 140.
+4. If the number of characters is over 140, the method should return the number of characters the user must delete before they can post their tweet (in the negative).
 
-The completed method can be called like this:
+In use:
 
 ```ruby
-puts tweet_length("Call me Ishmael. Some years ago – never mind how long precisely – having little or no money in my purse, and nothing particular to interest me on shore, I thought I would sail about a little and see the watery part of the world. It is a way I have of driving off the spleen, and regulating the circulation. Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul; whenever I find myself involuntarily pausing before coffin warehouses, and bringing up the rear of every funeral I meet; and especially whenever my hypos get such an upper hand of me, that it requires a strong moral principle to prevent me from deliberately stepping into the street, and methodically knocking people's hats off--then, I account it high time to get to sea as soon as I can.")
+puts tweet_length(82)
+=> 0
 
-=> "You are 661 characters over your limit of 140!"
+puts tweet_length(140)
+=> 0
 
-puts tweet_length("Call me Ishmael.")
-=> "You tweeted!"
+puts tweet_length(141)
+=> -1
+
+puts tweet_length(200)
+=> -60
 ```
