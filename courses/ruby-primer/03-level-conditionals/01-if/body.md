@@ -10,34 +10,47 @@ After this exercise you should be able to:
 
 ### Example
 
-Sometimes your code has to make decisions. But since computers aren't self-aware (yet), we must provide a set of options to choose from. In coding, we use conditional logic to provide a set of options, based on given arguments. The most common way to use conditional logic is with an `if` expression. An `if` expression considers a given condition, and then does something based on the result of the condition.
+Sometimes our code has to make a decision but computers aren't self-aware (yet), so we must provide options to choose from. And we use conditional logic to determine which option to execute.
 
-Pretend you're writing a program for an apple stand, and each apple costs $2.00. If a customer gives you $2.00, you give them an apple – capitalism at its finest!
+The most common way to choose between options is with an `if` expression. An `if` expression evaluates a conditional statement (resulting in `true` or `false`), and performs a specific action based on the result.
 
-Our program needs to make a decision based on how much money the customer gives us. Let's start with a method named `can_buy_apple_with?`:
+The `if` expression looks like this:
 
 ```ruby
-def can_buy_apple_with(money)
-  if money == 2
-    "Here's your delicious apple!"
+if conditional_statement
+  # do work if the `conditional_statement` was `true`
+end
+# jump here if the `conditional_statement` was false
+```
+
+Pretend you're writing a program for an apple stand, and each apple costs $2.00. If a customer gives you at least $2.00, you give them an apple – capitalism at its finest!
+
+Our program needs to make a decision based on how much money the customer gives us. Let's start with a method named, `can_buy_apple_with?`:
+
+```ruby
+def can_buy_apple_with?(money)
+  if money >= 2
+    return true
   end
+  false
 end
 ```
+
+> In this method, the conditional statement is `money >= 2`.
 
 Let's call this method and see what happens:
 
 ```ruby
-# The customer tries to swindle us, so NO APPLE FOR YOU!
-can_buy_apple_with(1)
-=> nil
+can_buy_apple_with?(1)
+=> false
 
-# the customer is flaunting their money, so NO APPLE FOR YOU!
-can_buy_apple_with(5)
-=> nil
+can_buy_apple_with?(5)
+=> true
 
-# the customer believes in fair trade!
-can_buy_apple_with(2)
-=> "Here's your delicious apple!"
+can_buy_apple_with?(2)
+=> true
 ```
 
-We called the method three times above. The first two calls returned `nil` because the method only returns a message when the customer gives us $2.00. On the third call the customer gives us $2.00, so the `if` expression evaluates to true, and a message is returned. The `if` expression decides what to do based on the `money` argument, and returns a value as appropriate.
+The `if` expression decides what to do based on the `money` argument, and returns the appropriate value.
+
+> For Fun: the logic in this method is relatively simple, can you think of a way to shorten it to one line?
