@@ -25,4 +25,4 @@ Click **Run**. The following error appears:
 syntax error, unexpected end-of-input, expecting keyword_end (SyntaxError)
 ```
 
-A missing `end` is another type of syntax error, but there are more. For example, missing quotation marks or closing parentheses are common causes. Any time you see a `SyntaxError`, it's because you're either missing, or have an extra keyword / character somewhere.
+A missing `end` is another type of syntax error, but there are more. For example, missing quotation marks or closing parentheses are common causes. Any time you see a `SyntaxError`, it's because you're missing some important code, or have an extra keyword (like `end`) somewhere. You might even have accidentally typed an extra character at the end of a line. 
