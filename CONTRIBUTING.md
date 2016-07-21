@@ -17,7 +17,7 @@ All exercises are deployed to the [Workshop app](https://workshop.bloc.io) and t
 # Language Exercises
 
 Language exercises are comprised of five files:
-- `body.md` (required): this is where the exercise objectives and examples are written. There should be two headers for each `body.md` file: ([see complete example](https://github.com/Bloc/curriculum/blob/master/workshop-curriculum/courses/ruby-primer/03-level-conditionals/01-if/body.md)
+- `body.md` (required): this is where the exercise objectives and examples are written. There should be two headers for each `body.md` file:
     - `### Objectives`: state the learning objectives for the exercise using [Bloom's Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) and our [approved action words](https://docs.google.com/spreadsheets/d/1yy7IwVvNZoPNb-u-HTYwg4tIStg4z6oSmhRMsHWTerc/edit#gid=350932233).
     - `### Example`: provide context and examples that will help the student complete the exercise. Do not give away the answer.
 - `instructions.md` (required): this is where the exercise instructions are written. Instructions should be numbered, brief, and explicit. See the [Exercise Instructions](https://github.com/Bloc/workshop-curriculum/blob/master/CONTRIBUTING.md#exercise-instructions) section for a detailed example.
