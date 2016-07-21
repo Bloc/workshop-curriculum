@@ -56,7 +56,7 @@ The output of this loop should look like this:
 Write a function called `addToArray`. This function should:
 
   - take two arguments, `num1` and `num2`
-  - use a `for` loop to add each number from `num1` to `num2` to an array
+  - use a `for` loop to add each number from `num1` through `num2` to an array
 
 For example:
 
