@@ -4,14 +4,9 @@
 
 After this exercise you should be able to:
 
-- Explain test-driven development.
-- Read tests and use them to drive your solution code.
-- Remember what a syntax error is.
 - Identify a syntax error.
 
 ### Example
-
-> Read (or re-read) our [Reading Tests resource](https://www.bloc.io/resources/workshop-reading-ruby-tests) before completing this exercise.
 
 Don't type anything in your code editor, just click **Run**. You should see an error:
 
@@ -21,4 +16,4 @@ syntax error, unexpected keyword_end, expecting end-of-input (SyntaxError)
 
 This output is part of Ruby's stack trace. A stack trace is a list of things that happen when you run code.
 
-The top of this stack trace tells us that we have an unexpected keyword. Ruby doesn't understand our method definition because of a typo.
+The top of this stack trace tells us that we have an unexpected keyword. Ruby doesn't understand our method definition because of a typo (a syntax error). This code has more than one syntax error, fix them all and your code will pass the tests!
