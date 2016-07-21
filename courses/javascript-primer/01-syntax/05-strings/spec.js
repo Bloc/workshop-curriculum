@@ -2,11 +2,11 @@ var assert = require('chai').assert;
 
 describe('keller', function () {
   it('uses two sets of quotation marks', function () {
-    assert.equal('She said, "Life is either a daring adventure or nothing at all."', keller) || ;
+    assert.equal('She said, "Life is either a daring adventure or nothing at all."', keller);
   });
 });
 describe('yoda', function () {
-  it('uses only one set of quotation marks', function () {
+  it('uses a single set of quotation marks', function () {
     assert.equal("Do... or do not. There is no try", yoda);
   });
 });

@@ -1,6 +1,5 @@
 var getColorType = function(color) {
   var message;
-  
   switch (color) {
     case "red":
     case "blue":

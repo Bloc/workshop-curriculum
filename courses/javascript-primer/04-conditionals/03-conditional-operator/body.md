@@ -47,7 +47,3 @@ As an expression, the conditional operator can be used to assign a value to a va
 // money is defined elsewhere
 var whatCanMaryBuy = (money > 5) ? "Candy!" : "Chewing gum.";
 ```
-
-### Exercise
-
-Use the conditional operator to rewrite the `if...else` statement in the editor.

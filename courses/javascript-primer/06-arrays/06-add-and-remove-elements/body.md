@@ -8,11 +8,11 @@ After this exercise, you should be able to:
 
 ### Example
 
-JavaScript has one method that changes the content of an array by removing existing elements and/or adding new elements:
+JavaScript has a method that changes the content of an array by removing existing elements and/or adding new elements:
 
 - `splice()` method – remove/add elements, return the removed element(s) (if any) in an array
 
-The splice method requires at least two arguments when called:
+The `splice()` method requires at least two arguments when called:
 
 | Order | Parameter           | Type   | Required? | Description |
 | ----- | ------------------- | ------ | --------- | ----------- |
@@ -20,7 +20,7 @@ The splice method requires at least two arguments when called:
 | 2     | `howmany`           | number | yes       | Specifies the number of elements to remove. If set to 0, no elements will be removed. |
 | 3     | `item1, ..., itemN` | any    | no        | The element(s) to add to the array. |
 
-We'll use the numbers array again to demonstrate the splice() method:
+We'll use the numbers array again to demonstrate the `splice()` method:
 
 ```js
 var numbers = [1, 2, 3, 4, 5];
@@ -51,17 +51,3 @@ surprise;    // returns []
 ```
 
 For this last example, we use a negative integer to specify an indexed position from the _end_ of the array.
-
-### Exercise
-
-Create a function named `theOldSwitcharoo`. This function should:
-
-  - take one argument, an array
-  - return the array with the string `"surprise!"` added in place of the second element
-
-For example:
-
-```js
-var arr = ["apples", "oranges", "kiwis"];
-theOldSwitcharoo(arr); // returns ["apples", "surprise!", "kiwis"]
-```

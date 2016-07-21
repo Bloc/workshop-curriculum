@@ -3,4 +3,4 @@ var blueberry = {
   shape: "round",
   size:  "tiny"
 };
-// do not change code above this line
+// Do not alter code above this line

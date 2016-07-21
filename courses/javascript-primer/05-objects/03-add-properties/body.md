@@ -9,15 +9,15 @@ After this exercise, you should be able to:
 
 ### Example
 
-There are two ways to add properties to an object after it's been defined: dot syntax and bracket syntax.
+There are two ways to add properties to an object after it's been defined: __dot notation__ and __bracket notation__.
 
-For example, to add a `size` property to `orange` using dot syntax, we would write:
+For example, to add a `size` property to `orange` using dot notation, we would write:
 
 ```js
 orange.size = "small";
 ```
 
-To add the same property using bracket syntax, we would write:
+To add the same property using bracket notation, we would write:
 
 ```js
 orange["size"] = "small";
@@ -31,12 +31,8 @@ The `orange` object now has three key-value pairs:
 | `shape`	       | `"round"`  |
 | `size`         | `"small"`  |
 
-To get a list (an array, which you'll learn about in the next level) of all the properties (keys) an object has, use the `Object.keys()` method with the name of the object as an argument:
+To get a list (an array, which you'll learn about in the next level) of all the properties (keys) an object has, use the built-in JavaScript `Object.keys()` method with the name of the object as an argument:
 
 ```js
 Object.keys(orange); // returns ["color", "shape", "size"]
 ```
-
-### Exercise
-
-Use dot or bracket notation to add a `size` property to the `blueberry` object. The value of `size` should be the string `"tiny"`.

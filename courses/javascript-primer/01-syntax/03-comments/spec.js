@@ -1,12 +1,22 @@
 var assert = require('chai').assert;
 
-describe('Single-line comments', function () {
-  it('start with //', function () {
+describe('numberOfSingleLineComments', function () {
+  it('is defined', function () {
+    assert.isDefined(numberOfSingleLineComments);
+  });
+  it('is assigned a numerical value equal to the number of single-line comments found in the exercise code', function () {
+    assert.isNumber(numberOfSingleLineComments);
     assert.equal(4, numberOfSingleLineComments);
   });
 });
-describe('Muli-line comments', function () {
-  it('start with /* and end with */', function () {
-    assert.equal(1, numberOfMultiLineComments);
+
+
+describe('numberOfMultiLineComments', function () {
+  it('is defined', function () {
+    assert.isDefined(numberOfMultiLineComments);
+  });
+  it('is assigned a numerical value equal to the number of single-line comments found in the exercise code', function () {
+    assert.isNumber(numberOfMultiLineComments);
+    assert.equal(4, numberOfMultiLineComments);
   });
 });
