@@ -1,5 +1,5 @@
-/* This function pushes each number between
-   num1 and num2 to an array and returns
+/* This function pushes each number from
+   num1 through num2 to an array and returns
    the array */
 
 var addToArray = function(num1, num2) {

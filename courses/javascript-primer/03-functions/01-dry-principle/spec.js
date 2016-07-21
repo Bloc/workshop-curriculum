@@ -5,7 +5,6 @@ describe("greet", function() {
     expect(greet).to.exist;
     expect(greet).to.be.a('function');
   });
-
   it("returns 'Aloha. Bonjour. Howdy.'", function () {
     expect(greet()).to.equal("Aloha. Bonjour. Howdy.");
   });

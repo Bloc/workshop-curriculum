@@ -4,7 +4,3 @@ var addItem = function(item, groceryList) {
   }
   return groceryList;
 };
-
-var reverseSortedList = function(array) {
-  return array.sort().reverse();
-};

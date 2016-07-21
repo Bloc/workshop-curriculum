@@ -1,5 +1,5 @@
-var addTwo = function(array) {
-  array.push(1);
-  array.unshift(1);
+var addFirstAndLast = function(array) {
+  array.push("hello");
+  array.unshift("world");
   return array;
 }
