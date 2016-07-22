@@ -10,7 +10,7 @@ After this exercise you should be able to:
 
 ### Example
 
-We could use and `if` or `case` expression to determine if a string's length is odd or even:
+We could use an `if` or `case` expression to determine if a string's length is odd or even:
 
 ```ruby
 def odd_or_even(arg)
@@ -22,10 +22,8 @@ def odd_or_even(arg)
 end
 
 def odd_or_even(arg)
-  length = arg.length
-
-  case length
-  when length % 2 == 0
+  case arg.length % 2
+  when 0
     "even"
   else
     "odd"
@@ -41,4 +39,8 @@ def odd_or_even(arg)
 end
 ```
 
-Once you get used to the syntax – namely the `?` (which stands for "then") and `:` (which stands for "else"), this can be easier to read than an `if` or `case` expression. Ternary operators offer coders an option to be terse, which at times can lead to easier readability.
+Once you get used to the syntax – namely the `?` (which stands for "then") and `:` (which stands for "else"), this is more legible than an `if` or `case` expression. Ternary operators offer coders an option to be terse, which at times can lead to better readability. Here's the raw structure:
+
+`{conditional_statement} ? {code A} : {code B}`
+
+If the conditional statement evaluates to `true`, Ruby executes code A, if `false`, code B.
