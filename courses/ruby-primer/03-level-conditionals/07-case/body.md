@@ -10,7 +10,7 @@ After this exercise you should be able to:
 
 ### Example
 
-A `case` expression allows us to evaluate arguments based on specified conditions, much like an `if` or `unless` expression. The difference is that it's more flexible and, depending on the conditions, might be more readable. Consider the following `if` expression:
+A `case` expression allows us to evaluate arguments based on specified conditions, much like an `if` or `unless` expression. The difference is that it's more flexible and, depending on the conditions, may be more readable. Consider the following `if` expression:
 
 ```ruby
 def my_mood(emoji)
@@ -26,7 +26,7 @@ def my_mood(emoji)
 end
 ```
 
-We can make this logic easier to read and enhance with a `case` expression:
+We can make this logic easier to read with a `case` expression:
 
 ```ruby
 def my_mood(emoji)
@@ -51,7 +51,9 @@ def my_mood(emoji)
     when ":)" then "I'm happy."
     when ":|" then "I'm stoic."
     when ":(" then "I'm sad."
-    else           "I don't know what I feel."
+    else "I don't know what I feel."
   end
 end
 ```
+
+If you find yourself writing a long chain of `if`/`elsif` statements that perform one or two lines of code each, that's an opportunity to switch them to a case statement. In most cases, an `if` will suffice.
