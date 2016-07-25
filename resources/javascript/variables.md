@@ -49,7 +49,7 @@ console.log(one + " " + two + " " + three); // output is "1 2 three"
 
 Here is a video recap on JavaScript variables:
 
-<center><iframe src="//fast.wistia.net/embed/iframe/vqa5cwpfif" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe></center><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+<iframe src="//fast.wistia.net/embed/iframe/vqa5cwpfif" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 
 Practice creating variables, assigning values, and printing to the console.
 ## Comments

@@ -276,9 +276,7 @@ Changes to be committed:
 
 A simple way to visualize a Git repository is to imagine a tree. Our main branch, usually master, is the trunk of the tree.
 
-<center>
 ![Tree](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/git-checkpoint-assets/repository-diagram.png)
-</center>
 
 Repositories default to the `master` branch. It is the official record of production-ready code and shouldn't include any bugs or dysfunctional code. When introducing a new feature or experimenting with code, it is a good idea to work on a separate branch. A branch provides an isolated environment to work in without disturbing existing code.
 

@@ -27,6 +27,6 @@ By assigning `orange.color` a value of `"red"`, we overwrite the previous value 
 
 Some blueberries aren't so tiny. Like this one, for example:
 
-<center>![willy wonka blueberry](https://s-media-cache-ak0.pinimg.com/564x/e0/86/90/e0869095145d679c238b85387af7208a.jpg)</center>
+![willy wonka blueberry](https://s-media-cache-ak0.pinimg.com/564x/e0/86/90/e0869095145d679c238b85387af7208a.jpg)
 
 Change the value of `size` to `"enormous"`, but do not alter the original object definition.
