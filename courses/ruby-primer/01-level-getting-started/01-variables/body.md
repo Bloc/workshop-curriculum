@@ -1,4 +1,4 @@
-<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Variable Name', description: New Description.' } -->
+<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Variable Name', description: 'New Description.' } -->
 
 ### Objectives
 

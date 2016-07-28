@@ -1,4 +1,4 @@
-<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Instructions', description: Instructions.' } -->
+<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Instructions', description: 'Instructions.' } -->
 
 ### Exercise
 
