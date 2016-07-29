@@ -24,7 +24,7 @@ function pluralize(word) {
 
 We define the function using the `function` keyword. After `function`, we name the function, which is followed by parentheses `()` and curly braces `{}`. The parentheses hold a function's __parameter(s)__, such as `word`, which create variable(s) that can be used inside of the function __body__. Inside the curly braces is the function __body__, which defines the function's behavior:
 
-<center>![function declaration](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_declaration.png)</center>
+![function declaration](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_declaration.png)
 
 Let's use our function to pluralize "monkey" and "orange":
 
@@ -47,7 +47,7 @@ pluralize("orange"); /* calls the function and returns
                         the value after the return block */
 ```
 
-<center>![pluralize function](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_def.gif)</center>
+![pluralize function](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_def.gif)
 
 Practice writing functions. For example, try writing functions that:
 
@@ -80,7 +80,7 @@ Above, we define the function without a `return` statement. When we call the fun
 sayHello(); // returns undefined, prints "Hello!" to the console
 ```
 
-<center>![pluralize function](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_no_return.gif)</center>
+![pluralize function](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_no_return.gif)
 
 The `console.log()` function doesn't return a value; it only prints the values passed to it and returns `undefined`.
 
@@ -107,7 +107,7 @@ add(3, 5); // returns 8
 
 This is known as a __function expression__. Assigning a value to a variable is an expression, thus assigning a function to a variable must end in a semicolon.
 
-<center>![function expression](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_expression.png)</center>
+![function expression](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/13-functions/function_expression.png)
 
 A function declaration like `function add() {}` is equivalent to the function expression `var add = function() {};`. When you're first learning JavaScript you can treat these as equal.
 

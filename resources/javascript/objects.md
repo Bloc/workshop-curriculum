@@ -197,7 +197,7 @@ orange.color; // returns "red"
 
 By assigning `orange.color` a value of `"red"`, we overwrite the previous value of `"orange"`.
 
-<center>![update object property value](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/15-objects/objects_prop_update.gif)</center>
+![update object property value](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/15-objects/objects_prop_update.gif)
 
 Practice overwriting property values.
 

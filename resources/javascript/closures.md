@@ -107,7 +107,7 @@ newYorkCity(); // prints "I exist in New York City!"
 
 The diagram below visually interprets the scopes of the above program, where each color represents a different scope.
 
-<center>![scope](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/scopes-closures%20checkpoint/scope.png)</center>
+![scope](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/scopes-closures%20checkpoint/scope.png)
 
 `centralPark()` can access its local scope, the scope of `newYorkCity()`, and the global scope. `newYorkCity()` can access its local scope and the global scope, but not the scope of `centralPark()`. The global scope does not have access to the scope of either `newYorkCity()` or `centralPark()`.
 
@@ -117,7 +117,7 @@ As we nest functions, the scope chain grows. The innermost function of a scope c
 
 However, we can write code in a certain way that allows us to execute a function outside of its lexical scope.
 
-<center>![closure](https://bloc-global-assets.s3.amazonaws.com/images-frontend/closure.gif)</center>
+![closure](https://bloc-global-assets.s3.amazonaws.com/images-frontend/closure.gif)
 
 Rachel, from the hit 90s TV show _Friends_, is right! Thanks, Rachel.
 
