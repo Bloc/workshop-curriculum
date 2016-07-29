@@ -3,7 +3,7 @@
 1. Define a method named `fix_title`.
 2. The method should take a string argument that represents the title of a book.
 3. The method should return a properly-capitalized string which represents the book title.
-4. Certain words are only capitalized if they are the first word in the title: "a", "and", "the", and "of".
+4. Certain words are only capitalized if they are the first word in the title: "a", "and", "the", and "of".  Hint: Creating a reference to these as an array held in a variable to check is useful.
 
 The completed method can be called like this:
 
