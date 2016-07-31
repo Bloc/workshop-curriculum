@@ -1,4 +1,4 @@
-<!-- { ids:[55], language:'Ruby', type:'workshop', order: 1, name:'Method Definition', description:'Learn what a method is and how to define it.' }-->
+<!-- { ids:[55], language:'Ruby', type:'workshop', order: 1, name:'Method Definition', description:'Learn what a method is and how to define it.' } -->
 
 ### Objectives
 
