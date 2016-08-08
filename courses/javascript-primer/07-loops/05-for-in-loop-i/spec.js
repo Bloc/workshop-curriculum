@@ -1,3 +1,4 @@
+<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' } -->
 var expect = require('chai').expect;
 
 describe("getKeys", function() {

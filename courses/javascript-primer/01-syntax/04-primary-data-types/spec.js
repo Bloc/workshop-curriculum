@@ -1,3 +1,4 @@
+<!--{ ids:[127], language:'JavaScript', type:'workshop', order: 3, name:'Primary Data Types', description:'A data type is a particular representation of information' } -->
 var assert = require('chai').assert;
 
 describe('1', function () {

@@ -1,3 +1,4 @@
+<!--{ ids:[143], language:'JavaScript', type:'workshop', order: 17, name:'Logical Operators', description:'Test the relationship between two boolean values' } -->
 var assert = require('chai').assert;
 
 describe('logical1', function () {

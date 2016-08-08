@@ -1,5 +1,4 @@
-<!--{ ids:[138], language:'JavaScript', type:'workshop', order: 12, name:'Arithmetic Operators I', description:'Use standard arithmetic operators to perform math operations.' }-->
-
+<!--{ ids:[138], language:'JavaScript', type:'workshop', order: 12, name:'Arithmetic Operators I', description:'Use standard arithmetic operators to perform math operations.' } -->
 ### Objectives
 
 After this exercise, you should be able to:

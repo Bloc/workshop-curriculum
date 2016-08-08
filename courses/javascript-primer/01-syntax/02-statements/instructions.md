@@ -1,3 +1,4 @@
+<!--{ ids:[106], language:'JavaScript', type:'workshop', order: 1, name:'Statements', description:'Statements are instructions' } -->
 ### Exercise
 
 Look at the code below. How many statements are there?

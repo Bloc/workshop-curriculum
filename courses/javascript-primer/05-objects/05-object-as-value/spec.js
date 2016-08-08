@@ -1,3 +1,4 @@
+<!--{ ids:[178], language:'JavaScript', type:'workshop', order: 4, name:'Object as a Value', description:'A value can be of any data type' } -->
 var expect = require("chai").expect;
 
 describe("fruits", function() {

@@ -1,3 +1,4 @@
+<!--{ ids:[131], language:'JavaScript', type:'workshop', order: 7, name:'String Operator', description:'The string operator concatenates two string values together' } -->
 var quotePt1 = "Excellence is an art won by training and habituation. ";
 var quotePt2 = "We do not act rightly because we have virtue or excellence, ";
 var quotePt3 = "but we rather have those because we have acted rightly. ";

@@ -1,3 +1,4 @@
+<!--{ ids:[179], language:'JavaScript', type:'workshop', order: 5, name:'Methods', description:'Even functions can be a value' } -->
 var expect = require("chai").expect;
 
 describe("orange", function() {
