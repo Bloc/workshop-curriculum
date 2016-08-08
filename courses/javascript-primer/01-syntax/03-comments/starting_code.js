@@ -1,3 +1,4 @@
+<!--{ ids:[125], language:'JavaScript', type:'workshop', order: 2, name:'Comments I', description:'Comments help explain what a script does' } -->
 /* This script alerts the user as to whether or not
    the current year is a leap year. */
 

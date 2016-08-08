@@ -1,3 +1,4 @@
+<!--{ ids:[128], language:'JavaScript', type:'workshop', order: 4, name:'Strings', description:'Strings are text enclosed in quotation marks' } -->
 var assert = require('chai').assert;
 
 describe('keller', function () {

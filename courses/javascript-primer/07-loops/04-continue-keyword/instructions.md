@@ -1,3 +1,4 @@
+<!--{ ids:[193], language:'JavaScript', type:'workshop', order: 3, name:'Continue Keyword', description:'And sometimes we're in an on-again-off-again sort of mood...' } -->
 ### Exercise
 
 The number 13 may be unlucky, but we don't believe in that too much... not really... just a little maybe. Just to be safe, we'll avoid that number, but we need to get on with our life and our `for` loops.

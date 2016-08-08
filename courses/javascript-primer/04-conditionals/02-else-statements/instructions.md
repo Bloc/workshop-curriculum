@@ -1,3 +1,4 @@
+<!--{ ids:[164], language:'JavaScript', type:'workshop', order: 1, name:'else Statements', description:'If this is true, do this; else, do this...' } -->
 ### Exercise
 
 Update the `greet` function. If the hour is _not_ less than 12, the function should return `"Good afternoon!"`.

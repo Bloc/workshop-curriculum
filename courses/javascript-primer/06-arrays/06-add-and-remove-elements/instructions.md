@@ -1,3 +1,4 @@
+<!--{ ids:[186], language:'JavaScript', type:'workshop', order: 5, name:'Add and Remove Elements', description:'Use the `splice()` method to manipulate an array' } -->
 ### Exercise
 
 Create a function named `theOldSwitcharoo`. This function should:

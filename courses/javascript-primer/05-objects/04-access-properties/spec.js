@@ -1,3 +1,4 @@
+<!--{ ids:[177], language:'JavaScript', type:'workshop', order: 3, name:'Access Properties', description:'Access properties in different ways' } -->
 var expect = require("chai").expect;
 
 describe("sizeOfBlueberry", function() {

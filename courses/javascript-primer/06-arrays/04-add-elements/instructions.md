@@ -1,3 +1,4 @@
+<!--{ ids:[184], language:'JavaScript', type:'workshop', order: 3, name:'Add Elements', description:'Add elements to an array' } -->
 ### Exercise
 
 Create a function named `addFirstAndLast`. This function should:

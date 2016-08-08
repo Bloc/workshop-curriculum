@@ -1,3 +1,4 @@
+<!--{ ids:[141], language:'JavaScript', type:'workshop', order: 15, name:'Type Coercion', description:'Coerce one data type into a another... everyone is doing it!' } -->
 var assert = require('chai').assert;
 
 describe('5 != \'5\'', function () {
