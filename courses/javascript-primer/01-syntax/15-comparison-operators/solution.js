@@ -1,5 +1,5 @@
 var y = 5, height = 3, x = 2, experiences = 99999, things = 1;
-// Do not edit above this line
+// Do not alter code above this line
 
 var comparison1;
 var comparison2  = (3 != y);

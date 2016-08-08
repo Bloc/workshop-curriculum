@@ -5,7 +5,6 @@ describe("helloWorld", function() {
     expect(helloWorld).to.exist;
     expect(helloWorld).to.be.a('function');
   });
-
   it("returns 'Hello World!'", function () {
     expect(helloWorld()).to.equal("Hello World!");
   });

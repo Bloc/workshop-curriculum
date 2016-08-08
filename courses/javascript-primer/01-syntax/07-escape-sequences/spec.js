@@ -2,16 +2,12 @@ var assert = require('chai').assert;
 
 describe('myString', function () {
   it('contains a backslash', function () {
-    assert.include(myString, "\\", "contains a backslash");
+    assert.include(myString, "\\");
   });
-});
-describe('myString', function () {
   it('contains a tab', function () {
-    assert.include(myString, "\t", "contains a tab");
+    assert.include(myString, "\t");
   });
-});
-describe('myString', function () {
   it('contains a new line', function () {
-    assert.include(myString, "\n", "contains a new line");
+    assert.include(myString, "\n");
   });
 });

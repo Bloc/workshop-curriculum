@@ -38,7 +38,3 @@ Here are some common escape sequences:
 | `\\`            | backslash    |
 | `\n`            | new line     |
 | `\t`            | tab          |
-
-### Exercise
-
-Assign `myString` a string value that uses the escape sequences `\\`, `\n,` and `\t` least once.

@@ -2,5 +2,4 @@ var blueberry = {
   color: "blue",
   shape: "round",
 };
-
-// add property here
+// Do not alter code above this line

@@ -46,16 +46,3 @@ addSuffix("awe", "some"); // returns "awesome"
 ```
 
 The strings `"awe"` and `"some"` are both arguments that become values for the `word` and `suffix` parameters, respectively.
-
-### Exercise
-
-Create a `multiply` function. This function should:
-
-  - take two arguments, both numbers
-  - return the result of multiplying the two arguments together
-
-For example:
-
-```js
-multiply(10, 10); // returns 100
-```

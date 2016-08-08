@@ -1,5 +1,5 @@
 var meaningOfLife = 42;
-// Do not edit above this line
+// Do not alter code above this line
 
 var comparison1 = (5 != '5');
 var comparison2 = ((3 * 3) >= '9');
