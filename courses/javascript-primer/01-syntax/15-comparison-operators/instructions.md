@@ -1,3 +1,4 @@
+<!--{ ids:[140], language:'JavaScript', type:'workshop', order: 14, name:'Comparison Operators', description:'Recognize comparison operators.' } -->
 ### Exercise
 
 There are ten variables declared in the editor. Determine which expressions do not use a comparison operator and remove their assignments from the editor.

@@ -1,3 +1,4 @@
+<!--{ ids:[131], language:'JavaScript', type:'workshop', order: 7, name:'String Operator', description:'The string operator concatenates two string values together' } -->
 var quotePt1;
 var quotePt2;
 var quotePt3;

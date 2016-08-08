@@ -1,3 +1,4 @@
+<!--{ ids:[197], language:'JavaScript', type:'workshop', order: 6, name:'While Loops', description:"When you don't know how many times a loop should run, use a while loop" } -->
 ### Exercise
 
 Write a function called `indexToString`. This function should:

@@ -1,3 +1,4 @@
+<!--{ ids:[195], language:'JavaScript', type:'workshop', order: 5, name:'For...In Loops II', description:'Practice iterating through properties of an object' } -->
 ### Exercise
 
 Write a function called `objectToArray`. This function should:

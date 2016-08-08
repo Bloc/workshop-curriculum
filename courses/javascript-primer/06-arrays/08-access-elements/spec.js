@@ -1,3 +1,4 @@
+<!--{ ids:[188], language:'JavaScript', type:'workshop', order: 7, name:'Access Elements', description:'Access elements in an array with bracket notation' } -->
 var expect = require("chai").expect;
 
 describe("firstAndLast", function() {

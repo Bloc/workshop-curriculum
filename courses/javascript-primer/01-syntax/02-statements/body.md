@@ -1,4 +1,4 @@
-<!--{ ids:[106], language:'JavaScript', type:'workshop', order: 1, name:'Statements', description:'Statements are instructions' }-->
+<!--{ ids:[106], language:'JavaScript', type:'workshop', order: 1, name:'Statements', description:'Statements are instructions' } -->
 
 ### Objectives
 

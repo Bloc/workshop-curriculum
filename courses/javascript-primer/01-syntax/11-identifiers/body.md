@@ -1,4 +1,4 @@
-<!--{ ids:[136], language:'JavaScript', type:'workshop', order: 10, name:'Identifiers', description:'Identifiers are unique names' }-->
+<!--{ ids:[136], language:'JavaScript', type:'workshop', order: 10, name:'Identifiers', description:'Identifiers are unique names' } -->
 
 ### Objectives
 

@@ -1,5 +1,4 @@
-<!--{ ids:[144], language:'JavaScript', type:'workshop', order: 0, name:'DRY Principle', description:'Don't Repeat Yourself' }-->
-
+<!--{ ids:[144], language:'JavaScript', type:'workshop', order: 0, name:'DRY Principle', description:"Don't Repeat Yourself" } -->
 ### Objectives
 
 After this exercise, you should be able to:

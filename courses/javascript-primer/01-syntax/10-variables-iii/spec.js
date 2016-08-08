@@ -1,3 +1,4 @@
+<!--{ ids:[134], language:'JavaScript', type:'workshop', order: 9, name:'Variables III', description:'Change the value of a variable' } -->
 var assert = require('chai').assert;
 
 describe('bestActor', function () {

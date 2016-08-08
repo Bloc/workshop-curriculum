@@ -1,5 +1,4 @@
-<!--{ ids:[143], language:'JavaScript', type:'workshop', order: 17, name:'Logical Operators', description:'Test the relationship between two boolean values' }-->
-
+<!--{ ids:[143], language:'JavaScript', type:'workshop', order: 17, name:'Logical Operators', description:'Test the relationship between two boolean values' } -->
 ### Objectives
 
 After this exercise, you should be able to:

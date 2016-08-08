@@ -1,5 +1,4 @@
-<!--{ ids:[180], language:'JavaScript', type:'workshop', order: 6, name:'Change a Value', description:'Changing a value is as simple as assigning one' }-->
-
+<!--{ ids:[180], language:'JavaScript', type:'workshop', order: 6, name:'Change a Value', description:'Changing a value is as simple as assigning one' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -22,4 +21,3 @@ orange.color; // returns "red"
 ```
 
 By assigning `orange.color` a value of `"red"`, we overwrite the previous value of `"orange"`.
-

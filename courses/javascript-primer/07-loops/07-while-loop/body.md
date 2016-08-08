@@ -1,5 +1,4 @@
-<!--{ ids:[197], language:'JavaScript', type:'workshop', order: 6, name:'While Loops', description:'When you do not know how many times a loop should run, use a while loop' }-->
-
+<!--{ ids:[197], language:'JavaScript', type:'workshop', order: 6, name:'While Loops', description:"When you don't know how many times a loop should run, use a while loop" } -->
 ### Objectives
 
 After this exercise, you should be able to:

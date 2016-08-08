@@ -1,3 +1,4 @@
+<!--{ ids:[142], language:'JavaScript', type:'workshop', order: 16, name:'Truthy and Falsy', description:'Truthy and falsy is like true and false, but less strict' } -->
 var truthyOrFalsy1 = true;
 var truthyOrFalsy2 = "hello";
 var truthyOrFalsy3 = 0;

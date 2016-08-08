@@ -1,3 +1,4 @@
+<!--{ ids:[182], language:'JavaScript', type:'workshop', order: 1, name:'Create an Array', description:'Create an array' } -->
 var expect = require("chai").expect;
 
 describe("createArray", function() {

@@ -1,3 +1,4 @@
+<!--{ ids:[142], language:'JavaScript', type:'workshop', order: 16, name:'Truthy and Falsy', description:'Truthy and falsy is like true and false, but less strict' } -->
 ### Exercise
 
 Look at the values in the editor. Decide whether the value is truthy or falsy and change its variable name accordingly.
