@@ -36,7 +36,3 @@ To get a list (an array, which you'll learn about in the next level) of all the 
 ```js
 Object.keys(orange); // returns ["color", "shape", "size"]
 ```
-
-### Exercise
-
-Use dot or bracket notation to add a `size` property to the `blueberry` object. The value of `size` should be the string `"tiny"`.

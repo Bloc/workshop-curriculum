@@ -51,17 +51,3 @@ surprise;    // returns []
 ```
 
 For this last example, we use a negative integer to specify an indexed position from the _end_ of the array.
-
-### Exercise
-
-Create a function named `theOldSwitcharoo`. This function should:
-
-  - take one argument, an array
-  - return the array with the string `"surprise!"` added in place of the second element
-
-For example:
-
-```js
-var arr = ["apples", "oranges", "kiwis"];
-theOldSwitcharoo(arr); // returns ["apples", "surprise!", "kiwis"]
-```

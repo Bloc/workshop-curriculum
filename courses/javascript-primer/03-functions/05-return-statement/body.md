@@ -28,9 +28,3 @@ var greetJose = greet("Jose"); // returns "Hey, what's up Jose? How are you?"
 ```
 
 While functions commonly have a `return` statement, it isn't a requirement for functions. You can write a function that does not return anything.
-
-### Exercise
-
-Create a function named `geneSings` that returns the string `"I'm singin' in the rain, just singin' in the rain"`.
-
-Then call this function and assign the function call to a variable named `lyrics`.

@@ -27,7 +27,3 @@ Some examples of expressions that use arithmetic operators:
 13 * 3 // evaluates to 39
 42 / 7 // evaluates to 6
 ```
-
-### Exercise
-
-Match the expressions listed in the comment to the appropriate variable name by assigning the expressions as values. For example, if the expression adds two numbers together, assign the expression to the `addition` variable.

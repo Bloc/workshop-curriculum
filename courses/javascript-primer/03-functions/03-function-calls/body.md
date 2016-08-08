@@ -23,7 +23,3 @@ greet(); // returns "Hey, what's up? How are you?"
 ```
 
 When we declare a function, there is no semicolon at the end of the block statement; yet when we call it, we use a semicolon.
-
-### Exercise
-
-Call the `helloWorld` function you wrote in the previous exercise and assign the function call to the variable `valueOfHelloWorld`.

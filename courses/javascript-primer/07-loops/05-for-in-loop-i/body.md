@@ -34,29 +34,3 @@ undefined
 ```
 
 Like the `for` loop's counter variable, `for...in` requires that you declare a variable (`var key`) to hold the properties referenced in each stage of the loop. This variable is followed by the `in` keyword, which is followed by the name of object that the loop will iterate through.
-
-### Exercise
-
-Write a function called `getKeys`. This function should:
-
-  - accept one argument, an object
-  - return an array of each of the keys in the object
-
-For example:
-
-```js
-var obj = {name: "Marcia", age: 101};
-getKeys(obj); // returns ["name", "age"]
-```
-
-Write a function called `getValues`. This function should:
-
-  - accept one argument, an object
-  - return an array of each of the values in the object
-
-For example:
-
-```js
-var obj = {name: "Marcia", age: 101};
-getValues(obj); // returns ["Marcia", 101]
-```

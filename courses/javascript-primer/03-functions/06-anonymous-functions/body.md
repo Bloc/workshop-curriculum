@@ -17,9 +17,3 @@ function(x, y) {
 ```
 
 Because this function doesn't have a name, however, we cannot call it. Despite this, there are use cases for anonymous functions, which we'll cover in the next exercise.
-
-### Exercise
-
-If it had a name, what identifier would best suit this anonymous function?
-
-Turn the anonymous function into a named function by giving it a name. Remember to use an action word that describes what the function does.

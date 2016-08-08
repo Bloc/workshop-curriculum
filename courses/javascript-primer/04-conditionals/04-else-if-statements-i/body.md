@@ -56,13 +56,3 @@ whatCanMaryBuy = function(money) {
 ```
 
 We declare a variable named `item` outside of the `if...else` statement. For each condition, we assign `item` a different value. At the end of the function, we return `item`, which only stores one value.
-
-### Exercise
-
-Update the `greet` function. If the hour is:
-
-  - before noon, return `"Good morning!"`
-  - after noon _and_ the hour is before 6 p.m., return `"Good afternoon!"`
-  - after 6 p.m., return `"Good evening!"`
-
-Remember we are basing the hour on the 24-hour clock.

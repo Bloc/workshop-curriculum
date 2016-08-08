@@ -26,7 +26,3 @@ By preceding a quotation mark with the escape character, we tell the JavaScript 
 ```
 
 These revised strings won't throw errors because the escape characters tell the JavaScript interpreter that the quotation marks are part of the string.
-
-### Exercise
-
-Edit the string to use the escape character where necessary. Depending on the size of your screen, you may need to scroll the editor horizontally to see all of the text.
