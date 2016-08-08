@@ -28,17 +28,3 @@ Usually, when two values are not of the same data type, JavaScript tries to conv
 For example, `'2'` is a string data type while `2` is a number data type. The comparison `'2' == 2`, however, returns `true` because JavaScript coerces the string `'2'` into the number `2` for the comparison.
 
 Type coercion can often cause unexpected results or errors in code. To avoid type coercion, use the strict equal and strict not equal operators (`===` and `!==`, respectively). These operators do not try to convert compared values to the same type before checking equality. For example, while `'2' == 2` returns `true`, `'2' === 2` returns false.
-
-### Exercise
-
-There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their assignments.
-
-```
-var comparison7 = 42 + 4;
-```
-
-For example, if you think the expression assigned to `comparison7` evaluates to `false`, then remove its assigned value and leave it like so:
-
-```
-var comparison7;
-```

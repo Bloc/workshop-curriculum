@@ -60,7 +60,3 @@ Here's how a `switch` statement works:
   3. If there is a match, the associated block of code is executed and the script breaks out of the `switch` statement.
 
 The `break` keyword is not required for the last case in a `switch` statement – it breaks (ends) there anyway.
-
-### Exercise
-
-Rewrite the `if` statement to be a `switch` statement. Instead of numbers as case values, the case values are strings; for example: `case "yellow":`.

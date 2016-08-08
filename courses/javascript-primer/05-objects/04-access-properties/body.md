@@ -39,7 +39,3 @@ orange.randomVar;  // returns undefined
 By using bracket notation, JavaScript _evaluates_ `randomVar` to be `"size"`, which is a property that exists on the `orange` object and has a value of `"small"`. `orange[randomVar]`, then, is equivalent to `orange["size"]`.
 
 If we try to use this variable with dot notation, however, it does not work. The script does not evaluate the variable, instead it tries to find a property named `randomVar`, which does not exist.
-
-### Exercise
-
-Assign the value of the `size` property to the variable `sizeOfBlueberry`.

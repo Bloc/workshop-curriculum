@@ -34,10 +34,3 @@ We've added `color` and `shape` properties to the `orange` object. The pairs of 
 | shape    | :     | "round"  | &nbsp; |
 
 Property names are converted to strings by the JavaScript compiler. In general, write property names the same as you would other identifiers, like variable names.
-
-### Exercise
-
-Create an object named `blueberry`. This object should have two properties:
-
-  - `color`, with a value of `"blue"`
-  - `shape`, with a value of `"round"`

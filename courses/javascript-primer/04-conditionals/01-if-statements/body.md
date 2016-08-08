@@ -47,16 +47,3 @@ if (2 + 2 === 5) {
 ```
 
 As far as we know, 2 + 2 does not equal 5, so the body of the `if` statement does not execute, and the string `"blown"` is never assigned to the variable `mind`.
-
-### Exercise
-
-Write a function named `greet`. This function should:
-
-  - take one argument, an integer based on the hour of the day
-  - if the integer is less than 12 (noon), return the string `"Good morning!"`
-
-For example:
-
-```js
-greet(8); // returns "Good morning!"
-```

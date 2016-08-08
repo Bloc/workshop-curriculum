@@ -30,7 +30,3 @@ Here, the first line is not valid and the second one is. The first line, in fact
 | `"I said, "` | `Hello World!` | `""`   |
 | :----------: | :------------: | :----: |
 | string       | fragment       | string |
-
-### Exercise
-
-Correct the strings' quotation marks so no errors are thrown. Do not alter the text; only change quotation marks where necessary.

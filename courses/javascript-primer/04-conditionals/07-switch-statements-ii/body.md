@@ -31,7 +31,3 @@ When the script enters the `switch` statement, it will go directly to the case t
 A `return` statement completely exits the function execution, whereas a `break` statement breaks only out of the `switch` statement and allows the rest of the function execution to continue after the switch.
 
 Like other conditional statements, a `switch` statement can exist outside of a function.
-
-### Exercise
-
-Correct the `getPriceWithTax` function so that the function execution does not end prematurely. Walk yourself through the function and say aloud what the function does at each line. Identify the lines that need to be corrected and make the necessary changes.

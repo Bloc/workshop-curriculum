@@ -29,9 +29,3 @@ All values are truthy unless they are __falsy__, which is a value that can be tr
 | `var life;`   | A variable with no assigned value, or `undefined` |
 | `''` or `""`  | An empty string                                   |
 | `42 / 'life'` | A string as a denominator is `NaN` (Not a Number) |
-
-### Exercise
-
-Look at the values in the editor. Decide whether the value is truthy or falsy and change its variable name accordingly.
-
-For example, if you think `var truthyOrFalsy11 = false` is falsy, then change the variable name from `truthyOrFalsy11` to `falsy11`. Do not change the values assigned to the variables.

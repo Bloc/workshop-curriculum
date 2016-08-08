@@ -23,7 +23,3 @@ In fact, when a variable is declared without a value, it actually gets a default
 var favoriteColor;     // evaluates to undefined
 favoriteColor = "red"; // evaluates to "red"
 ```
-
-### Exercise
-
-Assign a new value to the variable `bestActor`, but don't remove the original assignment. If you think Leonardo DiCaprio is the best actor, then choose who you think is the second best actor and assign his/her name as the new value.
