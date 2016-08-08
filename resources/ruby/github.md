@@ -36,9 +36,7 @@ How do we get our groceries to the pantry, or rather how do we get the items in 
 
 But where are we pushing our data to? First, we need to set up the repository on GitHub itself. Go to GitHub, log in, find the "+" mark on the top right of the screen and select "New repository".
 
-<center>
 ![New Repository](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/git-checkpoint-assets/github_new_repo.gif)
-</center>
 
 Name the repository `the_pantry`. Type any description. We can optionally use GitHub's convenient prebuilt `.gitignore` file feature. Since our repository already has a `.gitignore` we created manually, let's leave it as `None`:
 
@@ -255,9 +253,7 @@ If you don't know a repository's SSH key offhand, however, you can find it by fo
  3. Make sure you are on the "Clone with SSH" option
  4. Then click the "copy to clipboard" button as seen below:
 
- <center>
- ![Git Clone](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/git-checkpoint-assets/clone.gif)
- </center>
+![Git Clone](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/git-checkpoint-assets/clone.gif)
 
 Now that we've cloned the initial repository into `the_pantry_clone`, make a change to `apple.txt` and push the change to view it on GitHub:
 
@@ -271,6 +267,4 @@ $ git push origin master
 
 GitHub shows the new commit in the `master` branch. This is a basic example of the type of workflow that Git and GitHub provide.
 
-<center>
 ![](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/git-checkpoint-assets/github_clone.png)
-</center>

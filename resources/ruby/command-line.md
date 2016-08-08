@@ -19,9 +19,7 @@ Use the following instructions to open the command line:
 
 ### Where Am I?
 
-<center>
 ![Terminal](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/cl-checkpoint-assets/terminal_blank.png)
-</center>
 
 > Terminal in OS X
 
@@ -36,7 +34,7 @@ $ open .
 
 Here is a video demonstration for OS X:
 
-<center><iframe src="https://fast.wistia.net/embed/iframe/zunb0psj2o" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe><script src="https://fast.wistia.net/assets/external/E-v1.js" async></script></center>
+<iframe src="https://fast.wistia.net/embed/iframe/zunb0psj2o" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe><script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
 
 The operating system executed the `ls` command after we pressed return. The `ls` command listed the contents of our current directory. A directory in Unix is the same thing as a folder in Finder (OS X) or a folder in File Explorer (Windows). Notice the names in the output of `ls` match the folder titles in Finder.
 
@@ -60,9 +58,7 @@ The `pwd` command prints the name of our current directory to the command prompt
 
 The filesystem is a tree, at the top of the tree is the root denoted by `/`. Below the root there are branches and other [vertices](http://en.wikipedia.org/wiki/Vertex_%28graph_theory%29). The following graphic illustrates parts of an example filesystem:
 
-<center>
 ![mac_os_filsystem](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/cl-checkpoint-assets/Mac_OS_DAG.png)
-</center>
 
 The `cd` (change directory) command offers the ability to traverse the branches to get to other vertices. Let's move through the filesystem by using the `cd` command:
 
@@ -223,9 +219,7 @@ $ man ls
 
 Notice in the description of the `ls` man page, it lists a lot of options. This is typical of most Unix commands. Most commands have the ability to accept input. Options are also commonly referred to as *flags*. The `ls` command can take flags and exemplifies a typical Unix command. Issue a `cd` with no options; this will navigate the shell to our `HOME` directory and then perform `ls -a -l`:
 
-<center>
 ![ls_al_output](https://bloc-global-assets.s3.amazonaws.com/multi-purpose-checkpoint-assets/cl-checkpoint-assets/ls_al_output.png)
-</center>
 
 > Our output of `ls -a -l` in Terminal
 

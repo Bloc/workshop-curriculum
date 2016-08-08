@@ -121,7 +121,7 @@ __String concatenation__ is the act of combining two or more strings. There are 
 
 The following video demonstrates the use of strings and the usefulness of concatenation:
 
-<center><iframe src="//fast.wistia.net/embed/iframe/yhe01w2geo" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe></center><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+<iframe src="//fast.wistia.net/embed/iframe/yhe01w2geo" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="300"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 
 Practice string concatenation using the plus sign.
 

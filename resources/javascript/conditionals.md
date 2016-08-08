@@ -88,7 +88,7 @@ The conditional operator `?:` can be used as a shortcut for the `if...else` stat
 condition ? value if true : value if false;
 ```
 
-<center>![conditional operator](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/14-conditionals/conditional_op.gif)</center>
+![conditional operator](https://bloc-global-assets.s3.amazonaws.com/images-frontend/screenshots/14-conditionals/conditional_op.gif)
 
 In Mary's case, if she has more than $5, then she can buy some candy. And if she doesn't have enough money, then we offer her gum instead. The following is equivalent to the code in the above `else` statements section:
 

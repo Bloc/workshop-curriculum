@@ -1,6 +1,6 @@
 <!-- { ids:[1374], name:'JavaScript: Loops', summary:'Loops: write more efficient programs' } -->
 
-<center>![perfect loop sunglasses](https://bloc-global-assets.s3.amazonaws.com/images-frontend/gifs/Loops/sunglasses_perfect_loop.gif)</center>
+![perfect loop sunglasses](https://bloc-global-assets.s3.amazonaws.com/images-frontend/gifs/Loops/sunglasses_perfect_loop.gif)
 > A perfect loop of taking off sunglasses, from [the Perfect Loops subreddit](http://www.reddit.com/r/perfectloops/).
 
 A __loop__ is a programming construct that executes code a certain number of times, usually by iterating on a collection of values or objects. The code continues to execute (or _loops_) as long as its condition evaluates to `true`.
