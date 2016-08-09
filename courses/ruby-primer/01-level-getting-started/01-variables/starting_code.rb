@@ -1,3 +1,4 @@
+<!-- { ids:[54], language:'Ruby', type:'workshop', order: 0, name:'Variables', description:'Learn what a variable is, and how to assign a value to a variable.' } -->
 def my_first_variables
   days_in_a_year = # enter a value here
   planet_i_live_on = # enter a value here
