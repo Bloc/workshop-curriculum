@@ -1,3 +1,4 @@
+<!--{ ids:[127], language:'JavaScript', type:'workshop', order: 3, name:'Primary Data Types', description:'A data type is a particular representation of information' } -->
 var number1   = 1;
 var string2   = "San Francisco 49ers";
 var string3   = 'true';

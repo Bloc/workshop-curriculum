@@ -1,4 +1,4 @@
-<!--{ ids:[138], language:'JavaScript', type:'workshop', order: 12, name:'Arithmetic Operators I', description:'Use standard arithmetic operators to perform math operations.' }-->
+<!--{ ids:[138], language:'JavaScript', type:'workshop', order: 12, name:'Arithmetic Operators I', description:'Use standard arithmetic operators to perform math operations.' } -->
 
 ### Objectives
 
@@ -14,20 +14,27 @@ Arithmetic expressions generally use __arithmetic operators__ to return a value.
 
 The standard arithmetic operators are:
 
-- addition (`+`)
-- subtraction (`-`)
-- multiplication (`*`)
-- division (`/`)
+| Operator              | Example  | Evaluates to... |
+| :-------------------: | -------- | --------------- |
+| addition<br>`+`       | `5 + 6`  | `11`            |
+| subtraction<br>`-`    | `11 - 6` | `5`             |
+| multiplication<br>`*` | `13 * 3` | `39`            |
+| division<br>`/`       | `42 / 7` | `6`             |
 
-Some examples of expressions that use arithmetic operators:
+We can use operators to manipulate a single variable:
 
+```js
+var num = 0;    // num evaluates to 0
+num = num + 3;  // num evaluates to 3
+num = num - 1;  // num evaluates to 2
+num = num * 15; // num evaluates to 30
+num = num / 3;  // num evaluates to 10
 ```
-5 + 6  // evaluates to 11
-11 - 6 // evaluates to 5
-13 * 3 // evaluates to 39
-42 / 7 // evaluates to 6
+
+Or multiple variables:
+
+```js
+var width = 3;
+var height = 4;
+var area = width * height; // evaluates to 12
 ```
-
-### Exercise
-
-Match the expressions listed in the comment to the appropriate variable name by assigning the expressions as values. For example, if the expression adds two numbers together, assign the expression to the `addition` variable.

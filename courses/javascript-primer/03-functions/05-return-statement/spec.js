@@ -1,3 +1,4 @@
+<!--{ ids:[148], language:'JavaScript', type:'workshop', order: 4, name:'`return` statement', description:"Stop a function's execution" } -->
 var expect = require("chai").expect;
 
 describe("geneSings", function() {
@@ -5,7 +6,6 @@ describe("geneSings", function() {
     expect(geneSings).to.exist;
     expect(geneSings).to.be.a('function');
   });
-
   it("returns the string \"I'm singin' in the rain, just singin' in the rain\"", function () {
     expect(geneSings()).to.equal("I'm singin' in the rain, just singin' in the rain");
   });

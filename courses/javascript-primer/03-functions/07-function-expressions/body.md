@@ -1,4 +1,4 @@
-<!--{ ids:[150], language:'JavaScript', type:'workshop', order: 6, name:'Function Expressions', description:'Function expressions and function declarations are the same, but different' }-->
+<!--{ ids:[150], language:'JavaScript', type:'workshop', order: 6, name:'Function Expressions', description:'Function expressions and function declarations are the same, but different' } -->
 
 ### Objectives
 
@@ -32,21 +32,6 @@ var addNumbers = function add(x, y) {
 };
 ```
 
-As previously noted, a function declaration does not end with a semicolon. A function expression, on the other hand, _should_ end with a semicolon.
+As previously noted, a function declaration does not end with a semicolon. A function expression, on the other hand, _should_ end with a semicolon because it is an instruction that assigns the function to a variable.
 
 When you're first learning JavaScript, you can treat a function declaration like `function add() {}` as equivalent to the function expression `var add = function() {};`. They do have differences, but it's not vital that you learn those differences now.
-
-### Exercise
-
-Create an `arnoldYells` function. This function should:
-
-  - take one argument, a name, as a string
-  - return the string `"Get to the choppa <name>!"`
-
-For example:
-
-```js
-arnoldYells("Sasha"); // returns "Get to the choppa Sasha!"
-```
-
-![get to the choppa](https://immaterium.files.wordpress.com/2013/11/choppa.jpg)

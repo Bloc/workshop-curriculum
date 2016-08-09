@@ -1,11 +1,12 @@
+<!--{ ids:[187], language:'JavaScript', type:'workshop', order: 6, name:'Method Chaining', description:'Use multiple array methods at the same time' } -->
 var expect = require("chai").expect;
 
 describe("sortAndReverse", function() {
-  it("is defined", function() {
+  it("is defined and is a function", function() {
     expect(sortAndReverse).to.exist;
+    expect(sortAndReverse).to.be.a('function');
   });
-
-  it("returns a new array that is based on the orignal, but sorted in reverse", function() {
+  it("returns the passed array sorted in reverse", function() {
     expect(sortAndReverse([1,2])).to.eql([2,1]);
     expect(sortAndReverse([1,2,3,4])).to.eql([4,3,2,1]);
     expect(sortAndReverse([7,3,9])).to.eql([9,7,3]);

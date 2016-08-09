@@ -1,4 +1,4 @@
-<!--{ ids:[145], language:'JavaScript', type:'workshop', order: 1, name:'Function Declarations', description:'Declare a function' }-->
+<!--{ ids:[145], language:'JavaScript', type:'workshop', order: 1, name:'Function Declarations', description:'Declare a function' } -->
 
 ### Objectives
 
@@ -35,7 +35,3 @@ function greet() {
   return greeting;
 }
 ```
-
-### Exercise
-
-Declare a function named `helloWorld`. This function should return the string `"Hello World!"`.

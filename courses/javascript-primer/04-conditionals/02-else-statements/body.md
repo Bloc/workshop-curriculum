@@ -1,4 +1,4 @@
-<!--{ ids:[164], language:'JavaScript', type:'workshop', order: 1, name:'else Statements', description:'If this is true, do this; else, do this...' }-->
+<!--{ ids:[164], language:'JavaScript', type:'workshop', order: 1, name:'else Statements', description:'If this is true, do this; else, do this...' } -->
 
 ### Objectives
 
@@ -31,9 +31,3 @@ whatCanMaryBuy(4); // returns "Chewing gum."
 In the example above we use an __`else` statement__ to handle the condition where `money` is _not_ greater than `5`. We don't need to specify a condition for the `else` statement because it acts as a catch-all that executes when the `if` condition isn't true. In other words, when the `if` condition is falsy, the `else` branch will execute.
 
 Similar to the `if` body, an `else` body must open with a `{` and close with a `}` to create a block statement that groups together one or more statements.
-
-### Exercise
-
-Update the `greet` function. If the hour is _not_ less than 12, the function should return `"Good afternoon!"`.
-
-We're using "military time" (the 24-hour clock) for this function, which is generally what computers use to keep track of time. For example, 1 p.m. is 13 and 11 p.m. is 23.

@@ -1,4 +1,4 @@
-<!--{ ids:[106], language:'JavaScript', type:'workshop', order: 1, name:'Statements', description:'Statements are instructions' }-->
+<!--{ ids:[106], language:'JavaScript', type:'workshop', order: 1, name:'Statements', description:'Statements are instructions' } -->
 
 ### Objectives
 
@@ -35,21 +35,3 @@ console.log(message);
 ```
 
 We'll discuss what these statements do in the next exercise; for now, acquaint yourself with the structure of this code and try to identify patterns and similarities between lines.
-
-### Exercise
-
-Look at the code below. How many statements are there?
-
-```js
-var aliens = prompt("Aliens exist – true or false?");
-var greeting;
-
-if (aliens === false) {
-  greeting = "Hello World!";
-} else {
-  greeting = "Hello Universe!";
-}
-console.log(message);
-```
-
-Answer by assigning `numberOfStatements` a value that is the number of statements you find.
