@@ -1,4 +1,5 @@
 <!--{ ids:[181], language:'JavaScript', type:'workshop', order: 0, name:'A Simple Array', description:'An array is a list of data' } -->
+
 ### Exercise
 
 Use the table of information shown above to create variables named `fruit1`, `fruit2`, and `fruit3` and assign them the appropriate values.

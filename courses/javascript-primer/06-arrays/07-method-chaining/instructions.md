@@ -1,4 +1,5 @@
 <!--{ ids:[187], language:'JavaScript', type:'workshop', order: 6, name:'Method Chaining', description:'Use multiple array methods at the same time' } -->
+
 ### Exercise
 
 Create a function named `sortAndReverse`. This function should:

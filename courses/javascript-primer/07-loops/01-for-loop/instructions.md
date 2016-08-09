@@ -1,4 +1,5 @@
 <!--{ ids:[190], language:'JavaScript', type:'workshop', order: 0, name:'For Loops', description:'Iterate on a collection of values or objects' } -->
+
 ### Exercise
 
 Write a function called `addToArray`. This function should:

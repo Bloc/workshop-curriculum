@@ -1,4 +1,5 @@
 <!--{ ids:[186], language:'JavaScript', type:'workshop', order: 5, name:'Add and Remove Elements', description:'Use the `splice()` method to manipulate an array' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

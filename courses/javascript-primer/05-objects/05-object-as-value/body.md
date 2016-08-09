@@ -1,4 +1,5 @@
 <!--{ ids:[178], language:'JavaScript', type:'workshop', order: 4, name:'Object as a Value', description:'A value can be of any data type' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

@@ -1,4 +1,5 @@
 <!--{ ids:[185], language:'JavaScript', type:'workshop', order: 4, name:'Remove Elements', description:'Remove elements from an array' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

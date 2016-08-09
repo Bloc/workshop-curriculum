@@ -1,4 +1,5 @@
 <!--{ ids:[168], language:'JavaScript', type:'workshop', order: 5, name:'switch Statements I', description:'Perform actions based on different cases' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

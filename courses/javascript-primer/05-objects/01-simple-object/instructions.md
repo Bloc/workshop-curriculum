@@ -1,4 +1,5 @@
 <!--{ ids:[174], language:'JavaScript', type:'workshop', order: 0, name:'A Simple Object', description:'Objects store data and functions in one location' } -->
+
 ### Exercise
 
 Use the table of information shown above to create variables named `color` and `shape` and assign them the appropriate values.

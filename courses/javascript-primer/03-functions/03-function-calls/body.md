@@ -1,4 +1,5 @@
 <!--{ ids:[146], language:'JavaScript', type:'workshop', order: 2, name:'Function Calls', description:'Call a function' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

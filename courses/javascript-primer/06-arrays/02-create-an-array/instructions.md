@@ -1,4 +1,5 @@
 <!--{ ids:[182], language:'JavaScript', type:'workshop', order: 1, name:'Create an Array', description:'Create an array' } -->
+
 ### Exercise
 
 Create a function named `createArray`. This function should:

@@ -1,4 +1,5 @@
 <!--{ ids:[134], language:'JavaScript', type:'workshop', order: 9, name:'Variables III', description:'Change the value of a variable' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

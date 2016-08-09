@@ -1,4 +1,5 @@
 <!--{ ids:[170], language:'JavaScript', type:'workshop', order: 7, name:'switch Statements III', description:'Fallthrough: execute statements for multiple cases' } -->
+
 ### Objectives
 
 After this exercise, you should be able to:

@@ -1,4 +1,5 @@
 <!--{ ids:[127], language:'JavaScript', type:'workshop', order: 3, name:'Primary Data Types', description:'A data type is a particular representation of information' } -->
+
 ### Exercise
 
 Look at the values in the editor. Decide whether the value is a number, string, or boolean and change its variable name accordingly.

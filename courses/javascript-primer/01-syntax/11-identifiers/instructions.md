@@ -1,4 +1,5 @@
 <!--{ ids:[136], language:'JavaScript', type:'workshop', order: 10, name:'Identifiers', description:'Identifiers are unique names' } -->
+
 ### Exercise
 
 There are six variables declared in the editor. Three of the variables have good identifiers and three of them do not. Determine the three poorly-named variables and remove their assignments.
