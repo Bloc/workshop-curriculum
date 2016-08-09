@@ -1,5 +1,4 @@
-<!--{ ids:[184], language:'JavaScript', type:'workshop', order: 3, name:'Add Elements', description:'Add elements to an array' }-->
-
+<!--{ ids:[184], language:'JavaScript', type:'workshop', order: 3, name:'Add Elements', description:'Add elements to an array' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -41,18 +40,4 @@ var fruits = ["apple", "banana", "orange"];
 
 fruits[2] = "apple"; // assign "apple" to index 2
 fruits;              // returns ["apple", "banana", "apple"]
-```
-
-### Exercise
-
-Create a function named `addTwo`. This function should:
-
-  - take one argument, an array
-  - return the array with a `1` added to the start and end of the original array
-
-For example:
-
-```js
-var arr = ["apples", "oranges", "kiwis"];
-addTwo(arr); // returns [1, "apples", "oranges", "kiwis", 1]
 ```

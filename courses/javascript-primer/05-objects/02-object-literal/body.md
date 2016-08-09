@@ -1,5 +1,4 @@
-<!--{ ids:[175], language:'JavaScript', type:'workshop', order: 1, name:'Object Literal', description:'The simplest way to create an object' }-->
-
+<!--{ ids:[175], language:'JavaScript', type:'workshop', order: 1, name:'Object Literal', description:'The simplest way to create an object' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -33,11 +32,4 @@ We've added `color` and `shape` properties to the `orange` object. The pairs of 
 | color	   | :     | "orange" | ,      |
 | shape    | :     | "round"  | &nbsp; |
 
-Property names are converted to strings by the JavaScript compiler. In general, write property names the same as you would other identifiers, like variable names.
-
-### Exercise
-
-Create an object named `blueberry`. This object should have two properties:
-
-  - `color`, with a value of `"blue"`
-  - `shape`, with a value of `"round"`
+Property names are converted to strings by the JavaScript compiler. In general, a well-formatted property name follows the same rules and style guide for writing a good variable name.

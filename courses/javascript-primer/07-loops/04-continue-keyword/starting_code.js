@@ -1,5 +1,6 @@
-/* This function pushes each number between
-   num1 and num2 to an array and returns
+<!--{ ids:[193], language:'JavaScript', type:'workshop', order: 3, name:'Continue Keyword', description:'And sometimes we're in an on-again-off-again sort of mood...' } -->
+/* This function pushes each number from
+   num1 through num2 to an array and returns
    the array */
 
 var addToArray = function(num1, num2) {

@@ -1,3 +1,4 @@
+<!--{ ids:[140], language:'JavaScript', type:'workshop', order: 14, name:'Comparison Operators', description:'Recognize comparison operators.' } -->
 var assert = require('chai').assert;
 
 describe('5 + 7', function () {

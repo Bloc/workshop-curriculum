@@ -1,5 +1,4 @@
-<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' }-->
-
+<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -17,7 +16,7 @@ We use the `for...in` loop to iterate over the properties of an object. It is po
 The following code loops through an object's properties and prints out the property and value in a descriptive string:
 
 ```js
-var theObject = { color: "red", size: 10, shape: "square" };
+var theObject = {color: "red", size: 10, shape: "square"};
 
 for (var key in theObject) {
   console.log("The " + key + " of the object is " + theObject[key]);
@@ -33,30 +32,4 @@ The output of this loop is:
 undefined
 ```
 
-Like the `for` loop's counter variable, `for...in` requires that you declare a variable (`var key`) to hold the properties referenced in each stage of the loop. This variable is followed by the `in` keyword, which is followed by the name of object that the loop will iterate through.
-
-### Exercise
-
-Write a function called `getKeys`. This function should:
-
-  - accept one argument, an object
-  - return an array of each of the keys in the object
-
-For example:
-
-```js
-var obj = {name: "Marcia", age: 101};
-getKeys(obj); // returns ["name", "age"]
-```
-
-Write a function called `getValues`. This function should:
-
-  - accept one argument, an object
-  - return an array of each of the values in the object
-
-For example:
-
-```js
-var obj = {name: "Marcia", age: 101};
-getValues(obj); // returns ["Marcia", 101]
-```
+Similar to a `for` loop's counter variable, a `for...in` loop requires that you declare a variable (`var key`) to hold the property referenced in each stage of the loop. This variable is followed by the `in` keyword, which is followed by the name of object that the loop will iterate through.

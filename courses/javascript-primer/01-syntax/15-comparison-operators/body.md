@@ -1,5 +1,4 @@
-<!--{ ids:[140], language:'JavaScript', type:'workshop', order: 14, name:'Comparison Operators', description:'Recognize comparison operators.' }-->
-
+<!--{ ids:[140], language:'JavaScript', type:'workshop', order: 14, name:'Comparison Operators', description:'Recognize comparison operators.' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -22,17 +21,3 @@ Boolean expressions generally use __comparison operators__ to compare values and
 | `>=`<br>greater than or equal | left value is greater than or equal to the right value                   | `4 >= 4`                    |
 | `<`<br>less than              | left value is less than the right value                                  | `"Hi" < "Hello"`            |
 | `<=`<br>less than or equal    | left value is less than or equal to the right value                      | `4 <= 5`                    |
-
-### Exercise
-
-There are ten variables declared in the editor. Determine which expressions do not use a comparison operator and remove their assignments from the editor.
-
-```
-var comparison11 = 42 + 4;
-```
-
-For example, if you think the expression assigned to `comparison11` does not use a comparison operator, then remove its assigned value and leave it like so:
-
-```
-var comparison11;
-```

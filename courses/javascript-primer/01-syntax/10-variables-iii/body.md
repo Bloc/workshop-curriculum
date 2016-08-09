@@ -1,5 +1,4 @@
-<!--{ ids:[134], language:'JavaScript', type:'workshop', order: 9, name:'Variables III', description:'Change the value of a variable' }-->
-
+<!--{ ids:[134], language:'JavaScript', type:'workshop', order: 9, name:'Variables III', description:'Change the value of a variable' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -8,7 +7,7 @@ After this exercise, you should be able to:
 
 ### Example
 
-A variable is just that: variable – its value can change. To update the value of a variable, use the assignment operator (`=`) the same way to initially assign a value to a variable:
+A variable is just that: variable – its value can change. To update the value of a variable, use the assignment operator (`=`) the same way it's used to initially assign a value to a variable:
 
 ```js
 var favoriteColor = "blue";
@@ -23,7 +22,3 @@ In fact, when a variable is declared without a value, it actually gets a default
 var favoriteColor;     // evaluates to undefined
 favoriteColor = "red"; // evaluates to "red"
 ```
-
-### Exercise
-
-Assign a new value to the variable `bestActor`, but don't remove the original assignment. If you think Leonardo DiCaprio is the best actor, then choose who you think is the second best actor and assign his/her name as the new value.

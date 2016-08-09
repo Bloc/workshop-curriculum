@@ -1,5 +1,4 @@
-<!--{ ids:[148], language:'JavaScript', type:'workshop', order: 4, name:'`return` statement', description:'Stop a function's execution' }-->
-
+<!--{ ids:[148], language:'JavaScript', type:'workshop', order: 4, name:'`return` statement', description:'Stop a function's execution' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -16,7 +15,7 @@ function greet(name) {
 }
 ```
 
-The `return` keyword creates a __`return` statement__, which stops the execution of a function.
+The `return` keyword creates a __`return` statement__, which stops the execution of a function. Functions also stop executing when they reach the end of their block statement.
 
 If a value is specified in the `return` statement, then the value is returned to the function caller. If no value is specified (e.g. `return;`), then `undefined` is returned instead.
 
@@ -28,9 +27,3 @@ var greetJose = greet("Jose"); // returns "Hey, what's up Jose? How are you?"
 ```
 
 While functions commonly have a `return` statement, it isn't a requirement for functions. You can write a function that does not return anything.
-
-### Exercise
-
-Create a function named `geneSings` that returns the string `"I'm singin' in the rain, just singin' in the rain"`.
-
-Then call this function and assign the function call to a variable named `lyrics`.

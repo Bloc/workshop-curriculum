@@ -1,5 +1,4 @@
-<!--{ ids:[185], language:'JavaScript', type:'workshop', order: 4, name:'Remove Elements', description:'Remove elements from an array' }-->
-
+<!--{ ids:[185], language:'JavaScript', type:'workshop', order: 4, name:'Remove Elements', description:'Remove elements from an array' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -31,18 +30,4 @@ Next, we'll use the `shift()` method to remove and return the first element in t
 var firstElement = numbers.shift();
 numbers;      // returns [2, 3, 4]
 firstElement; // returns prints 1
-```
-
-### Exercise
-
-Create a function named `removeFirstAndLast`. This function should:
-
-  - take one argument, an array
-  - return the array with the first and last elements removed
-
-For example:
-
-```js
-var arr = ["apples", "oranges", "kiwis"];
-removeFirstAndLast(arr); // returns ["oranges"]
 ```

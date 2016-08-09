@@ -1,4 +1,4 @@
-<!--{ ids:[128], language:'JavaScript', type:'workshop', order: 4, name:'Strings', description:'Strings are text enclosed in quotation marks' }-->
+<!--{ ids:[128], language:'JavaScript', type:'workshop', order: 4, name:'Strings', description:'Strings are text enclosed in quotation marks' } -->
 
 ### Objectives
 
@@ -16,7 +16,11 @@ When writing a string, there is no difference between using single or double quo
 'I'm learning JavaScript.'
 ```
 
-These strings are not equal. The first string is valid, but the second string will throw an error. The apostrophe in `I'm` closes the string prematurely while the remaining text becomes a fragment that the JavaScript interpreter doesn't know how to handle.
+These strings are not equal. The first string is valid, but the second string will throw an error. The apostrophe in `I'm` closes the string prematurely while the remaining text becomes a fragment that the JavaScript interpreter doesn't know how to handle:
+
+| `'I'`  | `m learning JavaScript.'` |
+| :----: | :-----------------------: |
+| string | fragment                  |
 
 Here's another example:
 
@@ -30,7 +34,3 @@ Here, the first line is not valid and the second one is. The first line, in fact
 | `"I said, "` | `Hello World!` | `""`   |
 | :----------: | :------------: | :----: |
 | string       | fragment       | string |
-
-### Exercise
-
-Correct the strings' quotation marks so no errors are thrown. Do not alter the text; only change quotation marks where necessary.

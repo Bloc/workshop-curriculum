@@ -1,5 +1,4 @@
-<!--{ ids:[166], language:'JavaScript', type:'workshop', order: 3, name:'else if Statements I', description:'When two conditions aren't enough' }-->
-
+<!--{ ids:[166], language:'JavaScript', type:'workshop', order: 3, name:'else if Statements I', description:'When two conditions aren't enough' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -35,7 +34,7 @@ whatCanMaryBuy(3); // returns "A newspaper."
 whatCanMaryBuy(1); // returns "Chewing gum."
 ```
 
-When this script runs, the conditions will be evaluated one-by-one, and the body of the first condition that evaluates as truthy will execute. That is, only part of the script – the first part that evaluates as truthy – will ultimately be executed.
+When this script runs, the conditions will be evaluated one-by-one, and the body of the first condition that evaluates to truthy will execute. That is, only part of the script – the first part that evaluates to truthy – will ultimately be executed.
 
 As we add more execution paths, we begin to have many `return` statements. As a general rule, it's best to limit a function to just one `return` statement. We can refactor the function to have just one `return` statement:
 
@@ -56,13 +55,3 @@ whatCanMaryBuy = function(money) {
 ```
 
 We declare a variable named `item` outside of the `if...else` statement. For each condition, we assign `item` a different value. At the end of the function, we return `item`, which only stores one value.
-
-### Exercise
-
-Update the `greet` function. If the hour is:
-
-  - before noon, return `"Good morning!"`
-  - after noon _and_ the hour is before 6 p.m., return `"Good afternoon!"`
-  - after 6 p.m., return `"Good evening!"`
-
-Remember we are basing the hour on the 24-hour clock.

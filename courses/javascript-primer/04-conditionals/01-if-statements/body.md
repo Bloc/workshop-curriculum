@@ -1,5 +1,4 @@
-<!--{ ids:[163], language:'JavaScript', type:'workshop', order: 0, name:'if Statements', description:'If this is true, then do this...' }-->
-
+<!--{ ids:[163], language:'JavaScript', type:'workshop', order: 0, name:'if Statements', description:'If this is true, then do this...' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -26,7 +25,6 @@ var whatCanMaryBuy = function(money) {
 The `if` keyword begins an __`if` statement__, whereby a condition or value is evaluated, and if the condition is truthy, then specified code will execute. When we call the function and pass in an argument, we see how the condition (whether or not Mary has more than $5) affects the results:
 
 ```js
-
 whatCanMaryBuy(7); /* 7 is greater than 5
                       returns "Candy!" */
 
@@ -34,9 +32,7 @@ whatCanMaryBuy(5); /* 5 is not greater than 5
                       returns undefined */
 ```
 
-Remember that in JavaScript, if nothing is explicitly returned, then a function returns `undefined`.
-
-The body of the `if` statement only runs if the condition (in this case, `money > 5`) evaluates as truthy. The condition can contain any boolean expression, and the body, like any block statement, can contain any JavaScript code.
+The body of the `if` statement only runs if the condition (in this case, `money > 5`) evaluates to truthy. The condition can contain any boolean expression, and the body, like any block statement, can contain any JavaScript code.
 
 `if` statements do not need to be inside of a function. For example:
 
@@ -47,16 +43,3 @@ if (2 + 2 === 5) {
 ```
 
 As far as we know, 2 + 2 does not equal 5, so the body of the `if` statement does not execute, and the string `"blown"` is never assigned to the variable `mind`.
-
-### Exercise
-
-Write a function named `greet`. This function should:
-
-  - take one argument, an integer based on the hour of the day
-  - if the integer is less than 12 (noon), return the string `"Good morning!"`
-
-For example:
-
-```js
-greet(8); // returns "Good morning!"
-```

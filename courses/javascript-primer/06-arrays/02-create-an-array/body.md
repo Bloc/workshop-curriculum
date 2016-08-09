@@ -1,5 +1,4 @@
-<!--{ ids:[182], language:'JavaScript', type:'workshop', order: 1, name:'Create an Array', description:'Create an array' }-->
-
+<!--{ ids:[182], language:'JavaScript', type:'workshop', order: 1, name:'Create an Array', description:'Create an array' } -->
 ### Objectives
 
 After this exercise, you should be able to:
@@ -33,17 +32,4 @@ You can test this by using the `typeof` operator, which returns a string indicat
 
 ```js
 typeof fruits; // returns "object"
-```
-
-### Exercise
-
-Create a function named `createArray`. This function should:
-
-  - take four arguments
-  - return an array with those arguments as elements
-
-For example:
-
-```js
-createArray(1,2,3,4); // returns [1,2,3,4]
 ```

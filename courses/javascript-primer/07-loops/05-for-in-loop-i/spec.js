@@ -1,36 +1,34 @@
+<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' } -->
 var expect = require('chai').expect;
 
 describe("getKeys", function() {
-  it("is defined", function() {
+  it("is defined and is a function", function() {
     expect(getKeys).to.exist;
+    expect(getKeys).to.be.a('function');
   });
-
   it("returns an array of all the keys", function() {
-    hash = {name: "Rob", age: 101};
-    result = getKeys(hash);
+    var myObj = {name: "Rob", age: 101};
+    var result = getKeys(myObj);
 
     expect(result).to.include('name');
     expect(result).to.include('age');
   });
-
   it("returns an empty array when the object is empty", function() {
     expect(getKeys({})).to.eql([]);
   });
 });
-
 describe("getValues", function() {
   it("is defined", function() {
     expect(getValues).to.exist;
+    expect(getValue).to.be.a('function');
   });
-
   it("returns an array of all the values", function() {
-    hash = {name: "Rob", age: 101};
-    result = getValues(hash);
+    var myObj = {name: "Rob", age: 101};
+    var result = getValues(myObj);
 
     expect(result).to.include('Rob');
     expect(result).to.include(101);
   });
-
   it("returns an empty array when the object is empty", function() {
     expect(getValues({})).to.eql([]);
   });
