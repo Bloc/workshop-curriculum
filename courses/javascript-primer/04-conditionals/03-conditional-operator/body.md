@@ -1,4 +1,4 @@
-<!--{ ids:[165], language:'JavaScript', type:'workshop', order: 2, name:'Conditional Operator', description:'The lazy operator' }-->
+<!--{ ids:[165], language:'JavaScript', type:'workshop', order: 2, name:'Conditional Operator', description:'The lazy operator' } -->
 
 ### Objectives
 

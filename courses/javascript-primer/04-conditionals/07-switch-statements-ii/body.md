@@ -1,4 +1,4 @@
-<!--{ ids:[169], language:'JavaScript', type:'workshop', order: 6, name:'Switch Statements II', description:'A break statement is different from a return statement' }-->
+<!--{ ids:[169], language:'JavaScript', type:'workshop', order: 6, name:'switch Statements II', description:'A break statement is different from a return statement' } -->
 
 ### Objectives
 

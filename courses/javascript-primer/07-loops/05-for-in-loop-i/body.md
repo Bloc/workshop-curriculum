@@ -1,4 +1,4 @@
-<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' }-->
+<!--{ ids:[194], language:'JavaScript', type:'workshop', order: 4, name:'For...In Loops I', description:'Iterate through properties of an object' } -->
 
 ### Objectives
 

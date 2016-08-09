@@ -1,3 +1,4 @@
+<!--{ ids:[138], language:'JavaScript', type:'workshop', order: 12, name:'Arithmetic Operators I', description:'Use standard arithmetic operators to perform math operations.' } -->
 var assert = require('chai').assert;
 
 describe('+', function () {

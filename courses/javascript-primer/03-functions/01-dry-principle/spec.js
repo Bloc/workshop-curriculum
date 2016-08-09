@@ -1,3 +1,4 @@
+<!--{ ids:[144], language:'JavaScript', type:'workshop', order: 0, name:'DRY Principle', description:'Don't Repeat Yourself' } -->
 var expect = require("chai").expect;
 
 describe("greet", function() {

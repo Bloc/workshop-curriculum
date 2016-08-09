@@ -1,4 +1,4 @@
-<!--{ ids:[186], language:'JavaScript', type:'workshop', order: 5, name:'Add and Remove Elements', description:'Use the `splice()` method to manipulate an array' }-->
+<!--{ ids:[186], language:'JavaScript', type:'workshop', order: 5, name:'Add and Remove Elements', description:'Use the `splice()` method to manipulate an array' } -->
 
 ### Objectives
 

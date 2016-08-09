@@ -1,4 +1,4 @@
-<!--{ ids:[180], language:'JavaScript', type:'workshop', order: 6, name:'Change a Value', description:'Changing a value is as simple as assigning one' }-->
+<!--{ ids:[180], language:'JavaScript', type:'workshop', order: 6, name:'Change a Value', description:'Changing a value is as simple as assigning one' } -->
 
 ### Objectives
 

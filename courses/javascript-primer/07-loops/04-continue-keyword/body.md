@@ -1,4 +1,4 @@
-<!--{ ids:[193], language:'JavaScript', type:'workshop', order: 3, name:'Continue Keyword', description:'And sometimes we're in an on-again-off-again sort of mood...' }-->
+<!--{ ids:[193], language:'JavaScript', type:'workshop', order: 3, name:'Continue Keyword', description:'And sometimes we're in an on-again-off-again sort of mood...' } -->
 
 ### Objectives
 

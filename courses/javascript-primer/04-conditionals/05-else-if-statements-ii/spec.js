@@ -1,3 +1,4 @@
+<!--{ ids:[167], language:'JavaScript', type:'workshop', order: 4, name:'else if Statements II', description:'Evaluate many conditions' } -->
 var expect = require("chai").expect;
 
 describe("checkLock", function() {

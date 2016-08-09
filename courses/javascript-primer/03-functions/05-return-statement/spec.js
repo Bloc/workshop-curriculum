@@ -1,3 +1,4 @@
+<!--{ ids:[148], language:'JavaScript', type:'workshop', order: 4, name:'`return` statement', description:'Stop a function's execution' } -->
 var expect = require("chai").expect;
 
 describe("geneSings", function() {

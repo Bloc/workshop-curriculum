@@ -1,3 +1,4 @@
+<!--{ ids:[145], language:'JavaScript', type:'workshop', order: 1, name:'Function Declarations', description:'Declare a function' } -->
 var expect = require("chai").expect;
 
 describe("helloWorld", function() {
