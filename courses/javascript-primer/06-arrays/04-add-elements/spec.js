@@ -1,13 +1,14 @@
+<!--{ ids:[184], language:'JavaScript', type:'workshop', order: 3, name:'Add Elements', description:'Add elements to an array' } -->
 var expect = require("chai").expect;
 
-describe("addTwo", function() {
+describe("addFirstAndLast", function() {
   it("is defined and is a function", function() {
-    expect(addTwo).to.exist;
-    expect(addTwo).to.be.a('function');
+    expect(addFirstAndLast).to.exist;
+    expect(addFirstAndLast).to.be.a('function');
   });
 
-  it("returns the array with a 1 added to the start and end", function() {
-    expect(addTwo([0])).to.deep.equal([1, 0, 1]);
-    expect(addTwo(["apples", "oranges", "kiwis"])).to.deep.equal([1, "apples", "oranges", "kiwis", 1]);
+  it("returns the array with \"hello\" added to the start and \"world\" added to the end of the passed array", function() {
+    expect(addFirstAndLast([0])).to.deep.equal(["hello", 0, "world"]);
+    expect(addFirstAndLast(["apples", "oranges", "kiwis"])).to.deep.equal(["hello", "apples", "oranges", "kiwis", "world"]);
   });
 });

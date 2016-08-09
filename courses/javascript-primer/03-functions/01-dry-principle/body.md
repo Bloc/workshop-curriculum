@@ -1,4 +1,4 @@
-<!--{ ids:[144], language:'JavaScript', type:'workshop', order: 0, name:'DRY Principle', description:'Don't Repeat Yourself' }-->
+<!--{ ids:[144], language:'JavaScript', type:'workshop', order: 0, name:'DRY Principle', description:"Don't Repeat Yourself" } -->
 
 ### Objectives
 
@@ -23,7 +23,3 @@ function greet() {
 ```
 
 With this function, instead of writing `Hey, what's up? How are you?` (28 characters long) you could write `greet()` (only seven characters long) and your friend would still receive the original message. What a time saver!
-
-### Exercise
-
-Update the `greet` function to return the string `"Aloha. Bonjour. Howdy."` instead of `"Hey, what's up? How are you?"`

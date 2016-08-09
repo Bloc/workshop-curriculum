@@ -1,5 +1,6 @@
+<!--{ ids:[141], language:'JavaScript', type:'workshop', order: 15, name:'Type Coercion', description:'Coerce one data type into a another... everyone is doing it!' } -->
 var meaningOfLife = 42;
-// Do not edit above this line
+// Do not alter code above this line
 
 var comparison1 = (5 != '5');
 var comparison2 = ((3 * 3) >= '9');

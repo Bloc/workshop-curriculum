@@ -1,4 +1,4 @@
-<!--{ ids:[178], language:'JavaScript', type:'workshop', order: 4, name:'Object as a Value', description:'A value can be of any data type' }-->
+<!--{ ids:[178], language:'JavaScript', type:'workshop', order: 4, name:'Object as a Value', description:'A value can be of any data type' } -->
 
 ### Objectives
 
@@ -44,15 +44,4 @@ First, we choose the `buildings` object which has a property named `empireState`
 
 `buildings` &rarr; `empireState` &rarr; `location`
 
-While this example shows property chaining two levels deep, it's possible to make many relationships between objects and grow the chain infinitely. Chains, however, are usually no more than a couple levels deep.
-
-### Exercise
-
-Create an object named `fruits`. This object should have two properties: `orange` and `blueberry`.
-
-Structure the objects and their key-value pairs based on the following table of information:
-
-| Fruits    | Color  | Shape | Size  |
-| --------- | ------ | ----- | ----- |
-| orange    | orange | round | small |
-| blueberry | blue   | round | tiny  |
+While this example shows property chaining two levels deep, it's possible to make many relationships between objects and grow the chain infinitely. Be wary of nesting data too deep, as it can become difficult to manage.
