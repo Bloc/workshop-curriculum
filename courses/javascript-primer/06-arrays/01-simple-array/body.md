@@ -1,5 +1,4 @@
 <!--{ ids:[181], language:'JavaScript', type:'workshop', order: 0, name:'A Simple Array', description:'An array is a list of data' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

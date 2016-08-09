@@ -1,5 +1,4 @@
 <!--{ ids:[190], language:'JavaScript', type:'workshop', order: 0, name:'For Loops', description:'Iterate on a collection of values or objects' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

@@ -1,3 +1,4 @@
+<!--{ ids:[141], language:'JavaScript', type:'workshop', order: 15, name:'Type Coercion', description:'Coerce one data type into a another... everyone's doing it!' } -->
 ### Exercise
 
 There are six variables declared in the editor. Determine which variables are assigned expressions that evaluate to `false` and remove their assignments.

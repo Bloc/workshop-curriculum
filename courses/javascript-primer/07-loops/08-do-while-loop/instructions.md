@@ -1,3 +1,4 @@
+<!--{ ids:[198], language:'JavaScript', type:'workshop', order: 7, name:'Do...While Loops', description:'Similar to a while loop, but runs at least once no matter what' } -->
 ### Exercise
 
 Write a function called `addToArray`. This function should:

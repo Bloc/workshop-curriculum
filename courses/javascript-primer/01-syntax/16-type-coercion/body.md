@@ -1,5 +1,4 @@
 <!--{ ids:[141], language:'JavaScript', type:'workshop', order: 15, name:'Type Coercion', description:'Coerce one data type into a another... everyone's doing it!' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

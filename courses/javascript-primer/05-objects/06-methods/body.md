@@ -1,5 +1,4 @@
 <!--{ ids:[179], language:'JavaScript', type:'workshop', order: 5, name:'Methods', description:'Even functions can be a value' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

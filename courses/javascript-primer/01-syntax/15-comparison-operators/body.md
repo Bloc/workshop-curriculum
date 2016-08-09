@@ -1,5 +1,4 @@
 <!--{ ids:[140], language:'JavaScript', type:'workshop', order: 14, name:'Comparison Operators', description:'Recognize comparison operators.' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

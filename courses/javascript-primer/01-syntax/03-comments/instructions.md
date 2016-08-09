@@ -1,3 +1,4 @@
+<!--{ ids:[125], language:'JavaScript', type:'workshop', order: 2, name:'Comments I', description:'Comments help explain what a script does' } -->
 ### Exercise
 
 The previous exercise contained code that you may not have understood. With comments, however, we can clarify what the code is doing.

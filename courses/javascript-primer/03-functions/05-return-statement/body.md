@@ -1,5 +1,4 @@
 <!--{ ids:[148], language:'JavaScript', type:'workshop', order: 4, name:'`return` statement', description:'Stop a function's execution' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:

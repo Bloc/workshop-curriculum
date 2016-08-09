@@ -1,5 +1,4 @@
 <!--{ ids:[191], language:'JavaScript', type:'workshop', order: 1, name:'For Loops and Arrays', description:'Loops are often used to perform an action on items in an array' } -->
-
 ### Objectives
 
 After this exercise, you should be able to:
