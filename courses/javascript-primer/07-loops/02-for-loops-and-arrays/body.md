@@ -17,7 +17,7 @@ var letters = ["a", "b", "c", "d", "e", "f", "g"];
 var alphabet = ""
 
 for (var i = 0; i < letters.length; i++) {
-  console.log(alphabet += letters[i] + "...");
+  console.log(alphabet += letters[i]);
 }
 ```
 
@@ -26,13 +26,13 @@ Using the `length` property is a common pattern that ensures the loop stops once
 The output is of the above loop is:
 
 ```
-"a..."
-"ab..."
-"abc..."
-"abcd..."
-"abcde..."
-"abcdef..."
-"abcdefg..."
+"a
+"ab"
+"abc"
+"abcd"
+"abcde"
+"abcdef"
+"abcdefg"
 
 undefined
 ```
