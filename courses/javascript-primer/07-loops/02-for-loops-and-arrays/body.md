@@ -8,7 +8,7 @@ After this exercise, you should be able to:
 
 ### Example
 
-`for` loops are often used to perform an action on items in an array. The counter variable (often `i` for "iteration") in a `for` loop is useful for accessing an item at a given index.
+`for` loops are often used to perform an action on items in an array. The counter variable (often `i`) in a `for` loop is useful for accessing an item at a given index.
 
 Here's a loop that greets a group of friends:
 
