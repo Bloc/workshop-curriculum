@@ -8,15 +8,16 @@ After this exercise, you should be able to:
 
 ### Example
 
-`for` loops are often used to perform an action on items in an array. The counter variable (often `i`) in a `for` loop is useful for accessing an item at a given index.
+`for` loops are often used to perform an action on items in an array. The counter variable (often `i` for "iteration") in a `for` loop is useful for accessing an item at a given index.
 
 Here's a loop that greets a group of friends:
 
 ```js
-var friends = ["Troy", "Abed", "Annie"];
+var letters = ["a", "b", "c", "d", "e", "f", "g"];
+var alphabet = ""
 
-for (var i = 0; i < friends.length; i++) {
-  console.log("Hi " + friends[i] + "!");
+for (var i = 0; i < letters.length; i++) {
+  console.log(alphabet += letters[i] + "...");
 }
 ```
 
@@ -25,9 +26,14 @@ Using the `length` property is a common pattern that ensures the loop stops once
 The output is of the above loop is:
 
 ```
-"Hi Troy!"
-"Hi Abed!"
-"Hi Annie!"
+"a..."
+"ab..."
+"abc..."
+"abcd..."
+"abcde..."
+"abcdef..."
+"abcdefg..."
+
 undefined
 ```
 
