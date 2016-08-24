@@ -45,6 +45,6 @@ The three optional expressions are:
 
 | Order | Expression         | Example      | Description |
 | ----- | ------------------ | ------------ | ----------- |
-| 1     | _initialization_   | `var i = 0;` | Can be any expression or variable declaration; however, it is typically used to initialize a counter variable, such as `i`, whose value changes after each execution based on the _final-expression_. The variable can be used within the loop's block statement. This expression executes one time and happens before any other part of the loop. |
+| 1     | _initialization_   | `var i = 0;` | Evaluated one time before any other parts of the loop are evaluated. It is typically used to initialize a counter variable, such as `i`, whose value changes after each execution based on the _final-expression_. The variable can be used within the loop's block statement. |
 | 2     | _condition_        | `i < 10;`    | Evaluated before each loop iteration. If this expression evaluates to `true`, the loop body is executed. Because this expression is evaluated, any truthy value as this expression will also permit the loop to iterate. If omitted, the condition always evaluates to `true`.
 | 3     | _final-expression_ | `i++`        | Evaluated at the end of each loop iteration. Generally used to update or increment the counter variable. |
