@@ -40,7 +40,7 @@ Let's set up a hypothetical situation where your friend has bought you some frui
 
 Your friend asks you to get him the banana and the orange, which you see are the second and third items on the counter ( ```fruits[1]``` and  ```fruits[2]``` ).
 
-You take out a plate to hold your fruits ( ```var plate = new Array(2)``` ).
+You take out a plate to hold your fruits ( ```var plate = new Array()``` ).
 
 You pick up the banana and put it on the plate ( ```plate[0] = fruits[1]``` ) .
 
