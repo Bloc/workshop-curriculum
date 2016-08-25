@@ -10,7 +10,7 @@ After this exercise, you should be able to:
 
 We can use dot or bracket notation to access object properties. To access array elements, however, you must use bracket notation because indices are numbers. Dot notation can only be used with valid identifiers, which cannot begin with a number.
 
-Because arrays in JavaScript use zero-based numbering, the indices for the `fruits` array range from 0 to 2 rather than 1 to 3. To get the first element in the `fruits` array, we need to access index `0`:
+Because arrays in JavaScript are indexed with zero-based numbering, the indices for the `fruits` array range from 0 to 2 rather than 1 to 3. To get the first element in the `fruits` array, we need to access index `0`:
 
 ```js
 var fruits = ["apple", "banana", "orange"];
@@ -33,3 +33,12 @@ Then, with bracket notation, the variable `lastElementIndex` evaluates to 2:
 ```js
 fruits[lastElementIndex]; // returns "orange"
 ```
+
+### Real World Example
+
+Let's set up a hypothetical situation where your friend has bought you some fruits from the groceriy store and put them on the counter ( var fruits = ["apple", "banana", "orange"] ).
+Your friend asks you to get him the banana and the orange, which you see are the second and third items on the counter ( fruits[1] and fruits[2] ).
+You take out a plate which is only big enough to hold two fruits ( var plate = new Array(2) ).
+You pick up the banana and put it on the plate ( plate[0] = fruits[1]) .
+You then pick up the orange and put it on the plate ( plate[1] = fruits[2] ).
+Now you bring the plate to your friend ( return plate ).
