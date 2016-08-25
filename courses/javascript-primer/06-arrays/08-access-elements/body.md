@@ -37,8 +37,13 @@ fruits[lastElementIndex]; // returns "orange"
 ### Real World Example
 
 Let's set up a hypothetical situation where your friend has bought you some fruits from the grocery store and put them on the counter ( ```var fruits = ["apple", "banana", "orange"]``` ).
+
 Your friend asks you to get him the banana and the orange, which you see are the second and third items on the counter ( ```fruits[1]``` and  ```fruits[2]``` ).
+
 You take out a plate to hold your fruits ( ```var plate = new Array(2)``` ).
+
 You pick up the banana and put it on the plate ( ```plate[0] = fruits[1]``` ) .
+
 You then pick up the orange and put it on the plate ( ```plate[1] = fruits[2]``` ).
+
 Now you bring the plate to your friend ( ```return plate``` ).
