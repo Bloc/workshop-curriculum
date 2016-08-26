@@ -48,7 +48,7 @@ fruits;              // returns ["apple", "banana", "apple"]
 
 You are a dog walker who has 4 current clients to walk on Mondays named Rover, Shadow, FrouFrou, and Bella.
 
-``` var mondayDogs = {"Rover", "Shadow", "FrouFrou", "Bella"} ```
+``` var mondayDogs = ["Rover", "Shadow", "FrouFrou", "Bella"] ```
 
 You got a call yesterday with a new client who wants you to add their dog, Spot, to your Monday roster.
 
