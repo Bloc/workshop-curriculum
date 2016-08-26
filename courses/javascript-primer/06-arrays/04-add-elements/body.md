@@ -58,7 +58,7 @@ You also received a call this morning from one of your Tuesday clients asking fo
 
 ``` mondayDogs.unshift("Ralph") ```
 
-Finally when you meet FrouFrou's family today, they said they've decided to rename her Lassie.
+Finally when you meet the family of FrouFrou, who was recently adopted, they inform you that they've decided to rename her Lassie.
 
 ``` mondayDogs[2]="Lassie" ```
 
