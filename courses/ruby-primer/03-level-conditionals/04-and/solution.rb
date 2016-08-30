@@ -1,11 +1,19 @@
-def tweet_length(tweet, payment)
-  if tweet.length == 140 && payment == 1
-    "You tweeted a perfect tweet!"
-  elsif tweet.length > 140 && payment == 1
-    "You are #{tweet.length-140} characters over your limit of 140!"
-  elsif tweet.length < 140 && payment == 1
-    "You can use #{140 - tweet.length} more characters if you want!"
-  elsif payment != 1
-    "You must pay $1.00 for tweets now!"
+def mix_the_colors(red, yellow, blue)
+  if red && yellow && blue
+    "Black"
+  elsif red && yellow
+    "Orange"
+  elsif red && blue
+    "Violet"
+  elsif yellow && blue
+    "Green"
+  elsif red
+    "Red"
+  elsif blue
+    "Blue"
+  elsif yellow
+    "Yellow"
+  else
+    "None"
   end
 end

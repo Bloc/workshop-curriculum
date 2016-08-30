@@ -9,44 +9,39 @@ After this exercise you should be able to:
 
 ### Example
 
-Our apple stand continues to flourish, but the pressure for us to accept credit cards is palpable. We want to please our customers, so we'll update our program to accept cash or credit. We will draw a firm line on checks though – not now, not ever! We'll need to refine our condition such that it gives an apple to a customer who pays us $2.00 and pays with either cash or credit. Ruby provides an "or" operator that allows us to do this:
+In the previous exercise, you learned how to check for multiple conditions and whether both evaluated to `true`. In some cases, our code only needs _one_ of the conditions to evaluate to `true` before we execute it. Let's toss those moldy apples into the trash and talk about television!
 
 ```ruby
-def can_buy_apple_with(money, payment_type)
-  if money == 2 && ( payment_type == "cash" || payment_type == "credit" )
-    "Here's your delicious apple!"
-  elsif money < 2 && ( payment_type == "cash" || payment_type == "credit" )
-    "I'm sorry, this apple costs $2.00, you swindler!"
-  elsif money > 2 && ( payment_type == "cash" || payment_type == "credit" )
-    "I'm sorry, this apple costs $2.00. Go flaunt your money elsewhere!"
-  elsif payment_type != "cash" || payment_type != "credit"
-    "I'm sorry, we only take cash or credit. Take your checks back to 1995 where they belong."
+def should_i_watch_tv?(im_bored, my_show_is_on, the_tv_is_posessed)
+  if im_bored
+    true
+  elsif my_show_is_on
+    true
+  elsif the_tv_is_posessed
+    true
+  else
+    false
   end
 end
 ```
 
-We introduced the "or" (`||`) operator to check if the payment type is cash or credit. We also used parentheses around our "or" condition. These are necessary to ensure a proper order of operation, and also to improve readability.
-
-Let's call this method and see what happens:
+In this example, three conditions result in the same return statement (the same work), so we can shorten the whole method using the "or" operator:
 
 ```ruby
-# The customer tries to swindle us, so NO APPLE FOR YOU!
-can_buy_apple_with(1, "cash")
-=> "I'm sorry, this apple costs $2.00, you swindler!"
-
-# the customer is flaunting their money, so NO APPLE FOR YOU!
-can_buy_apple_with(5, "credit")
-=> "I'm sorry, this apple costs $2.00. Go flaunt your money elsewhere!"
-
-# the customer believes in fair trade, and has a credit card addiction.
-can_buy_apple_with(2, "credit")
-=> "Here's your delicious apple!"
-
-# the customer believes in fair trade, and has the cash-money to buy an apple!
-can_buy_apple_with(2, "cash")
-=> "Here's your delicious apple!"
-
-# the customer believes in fair trade, but is penalized for using a check and annoying everyone behind them in line.
-can_buy_apple_with(2, "check")
-=> "I'm sorry, we only take cash or credit. Take your checks back to 1995 where they belong."
+def should_i_watch_tv?(im_bored, my_show_is_on, the_tv_is_posessed)
+  if im_bored || my_show_is_on || the_tv_is_posessed
+    true
+  else
+    false
+  end
+end
 ```
+
+If you're bored, or if your favorite show is on, or if the tv is posessed by demons and you can't turn it off, then you should watch the TV. Otherwise, you don't watch because you have better things to do. The or operator (`||`) evaluates to `true` as long as either the left or right statement is true.
+
+| Left | Right | Or Result |
+| :-- | :-- | :-- |
+| False | False | False |
+| False | True | True |
+| True | False | True |
+| True | True | True |

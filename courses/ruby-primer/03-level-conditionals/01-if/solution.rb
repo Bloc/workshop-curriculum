@@ -1,5 +1,6 @@
 def tweet_length(tweet)
-  if tweet.length > 140
-    "Too many characters!"
+  if tweet > 140
+    false
   end
+  true
 end

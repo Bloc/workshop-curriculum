@@ -1,31 +1,22 @@
 ### Exercise
 
-We upset our Tweet & Co. employees with our new pay-to-tweet program. We've decided to allow employees of Tweet & Co. to tweet for free. We'll update our program accordingly.
+In this exercise, we're going to replicate airport security procedures. Fun, right!?
 
-1. Define a method named `tweet_length`.
-2. The method should take a string argument, a number argument, and a boolean argument.
-3. The string argument represents the tweet, the number argument represents their payment, and the boolean argument represents if they're an employee or not.
-4. The method should return a string that reads `"You tweeted a perfect tweet!"` if the argument is exactly 140 characters, and the payment is equal to 1 or the user is an employee.
-5. If the argument is longer than 140 characters, and the payment is equal to 1 or the user is an employee, return a string that tells the user how many characters they were over the limit. If the argument is 145 characters the message should read `"You are 5 characters over your limit of 140!"`.
-6. If the argument is less than 140 characters, and the payment is equal to 1 or the user is an employee, return a string that tells the user how many characters they were under the limit. If the argument is 135 characters the message should read `"You can use 5 more characters if you want!"`.
-7. If the payment is anything but 1 and the user is not an employee return `"You must pay $1.00 for tweets now!"`, regardless of the tweet length.
+1. Define a helper method in section 1:
+  - `is_adult?` which takes one argument, `age`, and returns `true` if `age` is greater than 5 and less than 65.
+2. Define another method named, `perform_search?`, in section 2:
+  - This method takes two arguments, `age` and `random_pat_down`.
+  - This method returns `true` if the person is an adult _or_ if we need to do a random pat-down (the children and the elderly are _not_ safe from random pat-downs!)
 
-The completed method can be called like this:
+In use:
 
 ```ruby
-puts tweet_length("X"*145, 1, true)
+puts perform_search?(25, false)
+=> true
 
-=> "You are 5 characters over your limit of 140!"
+puts perform_search?(3, false)
+=> false
 
-puts tweet_length("Y"*135, 1, true)
-=> "You can use 5 more characters if you want!"
-
-puts tweet_length("Y"*135, 0, false)
-=> "You must pay $1.00 for tweets now!"
-
-puts tweet_length("Z"*140, 1, true)
-=> "You tweeted a perfect tweet!"
-
-puts tweet_length("Z"*140, 2, false)
-=> "You must pay $1.00 for tweets now!"
+puts perform_search?(78, true)
+=> true
 ```

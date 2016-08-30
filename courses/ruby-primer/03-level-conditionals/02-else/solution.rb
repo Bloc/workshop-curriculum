@@ -1,7 +1,7 @@
-def tweet_length(tweet)
-  if tweet.length <= 140
-    "You tweeted!"
+def tweet_length(char_count)
+  if char_count <= 140
+    0
   else
-    "You are #{tweet.length-140} characters over your limit of 140!"
+    140 - char_count
   end
 end

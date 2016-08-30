@@ -10,34 +10,28 @@ After this exercise you should be able to:
 
 ### Example
 
-The `if` statement is common in programming, but Ruby offers an alternative to it. Depending on the condition you're evaluating, the inverse of `if` _might_ make your code more readable. For these special situations, we can use the `unless` statement.
+The `if` statement is common in programming, but Ruby offers an alternative. Depending on the condition you're evaluating, the opposite of `if` _might_ make your code more readable. For these special situations, we can use the `unless` statement.
 
-We've come a long way with our apple stand, and we've made trillions of dollars selling the best apples in the world. We no longer care about money, but still enjoy providing apples to hungry customers. While we no longer care about money, we still have a problem with people who use checks. We'll modify our apple stand program to be simpler, and account for only one condition.
+For example, let's say we perform this check in our method:
 
 ```ruby
-def can_buy_apple_with(payment_type)
-  unless payment_type == "check"
-    "Here's your delicious apple!"
-  else
-    "I don't need your money and I won't take your check on principle. Find your apples elsewhere you check monger."
+def whats_in_the_fridge?(im_hungry)
+  if im_hungry == false
+    return nil
   end
+  #... grab something from the fridge
 end
 ```
 
-Using the `unless` statement makes our conditional intention more explicit. We'll literally take _any_ payment method (even no payment at all!) before we take a check.
-
-Let's call this method and see what happens:
+The `if` statement requires three lines of code and performs no meaningful work, so we can simplify it using `unless`. Here's the same logic re-written with `unless`:
 
 ```ruby
-# Paying with a credit card? No problem!
-can_buy_apple_with("credit")
-=> "Here's your delicious apple!"
-
-# Not paying at all? No problem!
-can_buy_apple_with("")
-=> "Here's your delicious apple!"
-
-# You insult me and everyone at the apple stand. Leave now.
-can_buy_apple_with("check")
-=> "I don't need your money and I won't take your check on principle. Find your apples elsewhere you check monger."
+def whats_in_the_fridge?(im_hungry)
+  return nil unless im_hungry
+  #... grab something from the fridge
+end
 ```
+
+We can read this `unless` statement like an English sentence, "return nothing unless I'm hungry." The structure of the `unless` statement follows this schema: `{code} unless {conditional statement}`.
+
+If the conditional statement evaluates to `true`, Ruby skips the line and moves to the next. If the statement is `false`, Ruby executes the code.
