@@ -34,7 +34,7 @@ You can combine logical operators with comparison expressions to determine the t
 | Example                   | Evaluates to... | Because...                          |
 | ------------------------- | --------------- | ----------------------------------- |
 | `(4 > 3) && (9 == '9')`   | `true`          | both comparisons evaluate to `true` |
-| `(10 > 7) || (5 === '5')` | `false`         | at least one expression is `false`  |
+| `(10 > 7) && (5 === '5')` | `false`         | at least one expression is `false`  |
 
 They can also be chained together with more than two expressions:
 
