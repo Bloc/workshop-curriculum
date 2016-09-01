@@ -34,3 +34,28 @@ undefined
 ```
 
 Similar to a `for` loop's counter variable, a `for...in` loop requires that you declare a variable (`var key`) to hold the property referenced in each stage of the loop. This variable is followed by the `in` keyword, which is followed by the name of object that the loop will iterate through.
+
+
+### Real World Example
+
+You own a cotton candy food truck, and you've decided to set up at a local fair. 
+```var supplyOfCottonCandy = 1000;```
+
+You've brought your record book to keep track of your sales.
+```var recordBook = new Array();```
+
+You didn't expect to be so popular, and you have children lined up for your cotten candy around the corner, so you can't tell how long the line is.
+```function sellCottonCandy(line)```
+
+You can only complete one transaction at a time.
+```for(var child in line)```
+
+First you hand the child their cotton candy.
+```supplyOfCottonCandy-- ```
+
+Then you record their purchase in your record book.
+``` recordBook.push(child) ```
+
+At the end of the day, you pack up your record book and head home.
+``` return recordBook ```
+
