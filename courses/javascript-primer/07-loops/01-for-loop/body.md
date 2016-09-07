@@ -10,7 +10,7 @@ After this exercise, you should be able to:
 
 ### Example
 
-A loop is a scripting construct that executes code a certain number of times, usually by iterating on a collection of values or objects. The code continues to execute (or loops) as long as its condition evaluates to truthy.
+A loop is a scripting construct that executes code a certain number of times, usually by iterating on a collection of values or objects. The code continues to execute (or loops) as long as its condition evaluates to a [truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy) value.
 
 In JavaScript, there are four types of loops:
 
@@ -19,7 +19,7 @@ In JavaScript, there are four types of loops:
 3. `while`
 4. `do...while`
 
-When we know the exact number of times a block of code must execute, we use a __`for` loop__. For that reason, iteration in `for` loops is usually controlled by a variable that tracks the number of executions.
+When we know the exact number of times a block of code must execute, we use a __`for` loop__. For that reason, iteration in `for` loops is usually controlled by a variable that tracks the number of iterations. An iteration is defined as executing all statements inside of the loop's block statement.
 
 Consider the `for` loop below:
 
@@ -35,8 +35,8 @@ The output of this loop looks like this:
 
 This particular loop:
 
-1. `var i = 0`: Starts at `0`.
-2. `i < 10`: Continues to loop as long as `i` is less than `10`.
+1. `var i = 0`: Initializes `i` to `0`.
+2. `i < 10`: Continues to iterate as long as `i` is less than `10`.
 3. `i++`: Increases `i` by `1` each time the loop runs. (When `i` has a value of `10`, the loop stops.)
 
 A `for` loop is declared using the `for` keyword followed by a set of optional expressions separated by a semicolon and enclosed in parentheses. These expressions determine how the loop runs. The curly braces create a block statement comprised of one of more statements that execute at each turn of the loop.
@@ -45,6 +45,6 @@ The three optional expressions are:
 
 | Order | Expression         | Example      | Description |
 | ----- | ------------------ | ------------ | ----------- |
-| 1     | _initialization_   | `var i = 0;` | Typically used to initialize a counter variable, such as `i`, whose value changes after each execution based on the _final-expression_. The variable can be used within the loop's block statement. |
-| 2     | _condition_        | `i < 10;`    | Evaluated before each loop iteration. If this expression evaluates to `true`, the loop body is executed. If omitted, the condition always evaluates to `true`.
+| 1     | _initialization_   | `var i = 0;` | Evaluated one time before any other parts of the loop are evaluated. It is typically used to initialize a counter variable, such as `i`, whose value changes after each execution based on the _final-expression_. The variable can be used within the loop's block statement. |
+| 2     | _condition_        | `i < 10;`    | Evaluated before each loop iteration. If this expression evaluates to a "truthy" value, the loop will iterate. If omitted, the condition always evaluates to `true`.
 | 3     | _final-expression_ | `i++`        | Evaluated at the end of each loop iteration. Generally used to update or increment the counter variable. |
