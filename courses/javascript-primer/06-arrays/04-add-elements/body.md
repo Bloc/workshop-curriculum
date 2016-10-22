@@ -42,3 +42,23 @@ var fruits = ["apple", "banana", "orange"];
 fruits[2] = "apple"; // assign "apple" to index 2
 fruits;              // returns ["apple", "banana", "apple"]
 ```
+
+
+### Real World Example
+
+You are a dog walker who has 4 current clients to walk on Mondays named Rover, Shadow, FrouFrou, and Bella.
+
+``` var mondayDogs = ["Rover", "Shadow", "FrouFrou", "Bella"] ```
+
+You got a call yesterday with a new client who wants you to add their dog, Spot, to your Monday roster.
+
+``` mondayDogs.push("Spot") ```
+
+You also received a call this morning from one of your Tuesday clients asking for you to walk their dog, Ralph, first thing this morning instead since they'll be going on a week-long vacation this afternoon. 
+
+``` mondayDogs.unshift("Ralph") ```
+
+Finally when you meet the family of FrouFrou, who was recently adopted, they inform you that they've decided to rename her Lassie.
+
+``` mondayDogs[2]="Lassie" ```
+
