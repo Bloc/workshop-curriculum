@@ -24,7 +24,7 @@ def can_buy_apple_with(money)
 end
 ```
 
-We used `elsif` (note that there's no "e") to create another condition. We could've used an `elsif` to assess if `money` is greater than `2` (the "flaunter" condition), but we used `else`. We used `else` because it's the only other condition that could be met in this program – that is, if `money` is not equal to 2, and it is not less than 2, it must be greater than 2.
+We used `elsif` (note that there's no "e" between the "s" and "i") to create another condition. We could've used an `elsif` to assess if `money` is greater than `2` (the "flaunter" condition), but we used `else`. We used `else` because it's the only other condition that could be met in this program – that is, if `money` is not equal to 2, and it is not less than 2, it must be greater than 2.
 
 Let's call this method and see what happens:
 
