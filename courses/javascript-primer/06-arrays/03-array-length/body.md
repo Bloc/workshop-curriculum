@@ -10,6 +10,10 @@ After this exercise, you should be able to:
 
 The number of elements in an array is information that scripts often rely on to perform various operations. Because it's common information, JavaScript has a built-in property (remember that an array is a type of object) that can be accessed on all arrays: the `length` property.
 
+Remember, objects have a variety of built in properties that you can use. Whenever you want to access a property of an object, you simply say ```object.property;``` 
+
+To get a list of all properties on an object, go to your console in the browser and type your object name followed by a dot. You'll see a list of properties in a drop down menu. 
+
 For example, to get the number of elements that are in the `fruits` array:
 
 ```js
