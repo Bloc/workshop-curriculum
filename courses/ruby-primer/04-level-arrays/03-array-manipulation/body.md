@@ -24,7 +24,7 @@ Deletes all items from self that are equal to obj. Returns the last deleted item
 
 > You'll learn about the concept of "self" soon. For now you can accept that "self" represents the array in which we are calling `delete` on. Another way to say this is that "self" represents the array that is _receiving_ the `delete` method.
 
-From the explanation above we understand that the `delete` method will delete at item (i.e. element) from an array if it is equal to the object (argument) that we passed to it. It will return `nil` if there is no item in the array that matches the object that we passed to it.
+From the explanation above we understand that the `delete` method will delete an item (i.e. element) from an array if it is equal to the object (argument) that we passed to it. It will return `nil` if there is no item in the array that matches the object that we passed to it.
 
 Finally, the documentation provides us with a helpful example:
 
