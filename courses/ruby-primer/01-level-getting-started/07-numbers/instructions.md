@@ -1,18 +1,39 @@
 ### Exercise
 
-1. Define a method named `fun_with_math`.
-2. The method should take four number arguments.
-3. The method should return a number that has been calculated as follows:
+In this challenge, you get to implement the [Pythagorean theorem](https://en.wikipedia.org/wiki/Pythagorean_theorem)! We can practically hear your "yays" from across the Internet!
 
-    - Add the first argument to the second argument.
-    - Subtract the third argument from the sum of the first two arguments.
-    - Multiply the result of the two operations above by the fourth argument.
+If you don't recall, the Pythagorean theorem allows us to calculate the length of a right-sided triangle as long as we know _two_ of the three sides. The theorem looks like this:
 
-> You should take note of the order of operations requested in this exercise. The placement of parentheses will change the result of your method.
+> a<sup>2</sup> + b<sup>2</sup> = c<sup>2</sup>
 
-The completed method can be called like this:
+![Right-Sided Triangle](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Pythagorean.svg/260px-Pythagorean.svg.png "A right-sided triangle with an A, B, and C section")
+
+Your job is to calculate the missing side!
+
+1. Define a function named `pythagorean_theorem`
+2. It must accept three arguments: a, b, and c
+3. One of the arguments will always be `0` - this is the missing side!
+4. The other arguments are valid lengths that correspond to their side of a triangle (either a, b, or c)
+5. Return the length of the missing side!
+
+> Hint: to get the square root of a number, `4` for example, calculate its `0.5` exponent, `4 ** 0.5`
+
+Given this triangle:
+
+![](http://www.platinumgmat.com/global/images/study_guide/pythagorean_theorem3.gif?v=1)
+
+A is `12`, B is `5`, and C is `13`. In use:
 
 ```ruby
-puts fun_with_math(4,3,2,1)
+# calculates C
+puts pythagorean_theorem(12, 5, 0)
+=> 13
+
+# calculates B
+puts pythagorean_theorem(12, 0, 13)
 => 5
+
+# calculates A
+puts pythagorean_theorem(0, 5, 13)
+=> 12
 ```

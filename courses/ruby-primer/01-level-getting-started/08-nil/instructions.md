@@ -1,19 +1,24 @@
 ### Exercise
 
-1. Define a method named `am_i_nil?`.
-2. The method should take two arguments: a string argument, and a number argument.
-3. The method should return true if a character at the position of the second argument is non-existent. The method should return false if there is a character at the position of the second argument.
+1. Define a method named, `which_hand?`.
+2. It takes two arguments: `left` and `right`
+3. If `left` is `nil`, return `right`.
+4. If `right` is `nil`, return `left`.
+5. If both are `nil`, return the string, "You're cheating!"
+6. If neither value is `nil`, return `nil`.
 
-The completed method can be called like this:
+In use:
 
 ```ruby
-puts am_i_nil?("Ada Lovelace", 4)
-=> false
+puts which_hand?(1, nil)
+#=> 1
 
-puts am_i_nil?("Ada Lovelace", 35)
-=> true
+puts which_hand?(nil, "stringy the string!")
+#=> "stringy the string!"
+
+puts which_hand?(nil, nil)
+#=> "You're cheating!"
+
+puts which_hand?("something", "another thing")
+#=> nil
 ```
-
-You can check if a value is nil by calling the `nil?` method on it. For example, "Bloc".nil? will return false, because "Bloc" is a valid string and hence not nil.
-
-> Ruby allows special characters like `?` and `!` in method names. These characters don't mean anything special, they're just useful for naming methods and implying the method's intent. For example, using `?` in a method name that returns a boolean value is considered a best practice.

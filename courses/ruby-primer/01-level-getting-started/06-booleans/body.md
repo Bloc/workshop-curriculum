@@ -5,20 +5,23 @@
 After this exercise you should be able to:
 
 - Define a boolean data type.
-- Understand how to define a method which returns a boolean.
-- Understand how to print a boolean.
+- Define a method which returns a boolean.
+- Print a boolean.
 
 ### Example
 
-A boolean is a data type. Like a string, a boolean represents a certain value. While a string represents a character, word, or sentence, a boolean can only represent one of two values – `true` or `false`.
+A boolean is another data type. Like a string, a boolean represents a certain value. While a string represents a character, word, or sentence, a boolean can only represent one of two values – `true` or `false`.
 
-A boolean requires a true / false question to be asked. We can ask true / false questions with comparison operators. A comparison operator evaluates values and returns a true or false. The comparison operators available in Ruby are:
+A boolean requires a true / false question to be asked. We can ask true / false questions with comparison operators. These operators compare two statements (left, right) and evaluate to `true` or `false`. The operators available in Ruby are:
 
-- `==` returns `true` if the values are equal.
-- `>` returns `true` if the value on the left is greater than the value on the right.
-- `<` returns `true` if the value on the left is less than the value on the right.
-- `>=` returns `true` if the value on the left is greater than or equal to the value on the right.
-- `<=` returns `true` if the value on the left is less than or equal to the value on the right.
+| Operator | Example | Description |
+| :--: | :-- | :-- |
+| `==` | `left == right` | Returns `true` if `left` is equal to `right`. |
+| `>` | `left > right` | Returns `true` if `left` is greater than `right`. |
+| `<` | `left < right` | Returns `true` if `left` is less than `right`. |
+| `>=` | `left >= right` | Returns `true` if `left` is greater than or equal to `right`. |
+| `<=` | `left <= right` | Returns `true` if `left` is less than or equal to `right`. |
+| `!=` | `left != right` | Returns `true` if `left` and `right` differ. |
 
 We can compare strings:
 
@@ -33,13 +36,15 @@ We can also compare numbers:
 99 > 9
 => true
 ```
-We can assign the result of the comparisons to booleans:
+We can assign the result of comparisons to boolean variables:
 
 ```ruby
 my_bool = "Ruby" == "Ruby"
 puts my_bool
 => true
+```
 
+```ruby
 my_bool = 5 > 5
 puts my_bool
 => false

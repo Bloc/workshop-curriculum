@@ -4,7 +4,7 @@
 
 After this exercise you should be able to:
 
-- Define what an argument is.
+- Define a method argument.
 - Understand how to use an argument in a method.
 
 ### Example
@@ -17,22 +17,28 @@ You can interact with methods by providing them with information. Consider these
 There are two arguments passed to the `add` method below. The arguments are named `a` and `b`:
 
 ```ruby
-def add(a,b)
+def add(a, b)
   a + b
 end
 ```
 
-Arguments are variables that can be used within the method. In the `add` method above, we calculate the sum of the `a` and `b` values. A method can have any number of arguments, or no arguments at all.
+Arguments are external variables that we may use within a method. A method can request any number of arguments, or none at all.
 
-We can call the `add` method with different arguments:
+In the `add` method above, we calculate the sum of `a` and `b`. We can call the `add` method with different arguments:
 
 ```ruby
-puts add(1,2)
+puts add(1, 2)
 => 3
 
-puts add(4,5)
+puts add(4, 5)
 => 9
 
-puts add(7,7)
+puts add(7, 7)
 => 14
 ```
+
+We surround arguments with parenthesis `(…)` when passing data to methods, e.g. `do_work(arg1, arg2, …)`. If we choose not to pass arguments, or if the method does not require them, we can exclude the parenthesis: `do_work`.
+
+> **Caution**: When providing arguments, the parenthesis must immediately follow the name of the method - _no spaces allowed_.
+> _Good:_ `do_work(arg1, arg2, …)`
+> _Bad:_ `do_work (arg1, arg2, …)`

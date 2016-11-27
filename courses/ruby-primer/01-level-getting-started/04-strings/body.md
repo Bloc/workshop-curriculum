@@ -5,35 +5,39 @@
 After this exercise you should be able to:
 
 - Define a string data type.
-- Understand how to return a string from a method.
-- Understand how to define a method which returns a string.
-- Understand how to call a method on a string.
-- Understand how to print a string.
+- Return a string from a method.
+- Define a method which returns a string.
+- Call a method on a string.
+- Print a string.
 
 ### Example
 
-A string is known as a **data type** in programming. Data types represent values and offer methods to return properties from their values. Strings are denoted by quotation marks:
+A string is known as a **data type** in programming. Data types represent values and come with their own methods.
+
+Strings are denoted by quotation marks:
 
 ```ruby
-"I am a string, deal with it."
+"I am a string, not the yarn kind."
 ```
 
 Because a string is a data type, we can assign it to a variable:
 
 ```ruby
-my_first_string = "I am a string, deal with it."
+my_first_string = "I am a string, not the yarn kind."
 ```
 
 The variable `my_first_string` now represents a string data type, and we can call methods on it:
 
 ```ruby
 puts my_first_string.length
-=> 28
+=> 33
 ```
 
-We called the `length` method on the string, and it returned `28` because there are 28 characters in `"I am a string, deal with it."` Different methods return different values, `length` just happens to return a number representing the number of characters in a string. We can also call methods directly on strings, rather than their variables:
+We called the `length` method on the string, and it returned `33` because there are 33 characters in, "I am a string, not the yarn kind."
+
+Different methods return different values, `length` just happens to return the number of characters in the string. We can also call methods directly on a data type, rather than its variable:
 
 ```ruby
-puts "I am a string, deal with it.".length
-=> 28
+puts "I am a string, not the yarn kind.".length
+=> 33
 ```

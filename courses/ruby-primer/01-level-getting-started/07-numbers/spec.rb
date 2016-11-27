@@ -1,17 +1,19 @@
-describe "fun_with_math" do
-  it "returns 0 when provided with 1,2,3,4" do
-    expect( fun_with_math(1,2,3,4) ).to eq(0)
+describe "pythagorean_theorem" do
+  it "returns 12 when provided with 0, 5, 13" do
+    expect( pythagorean_theorem(0, 5, 13) ).to eq(12)
   end
 
-  it "returns 5 when provided with 4,3,2,1" do
-    expect( fun_with_math(4,3,2,1) ).to eq(5)
+  it "returns the root of 3 when provided with 1, 0, 2" do
+    expect( pythagorean_theorem(1, 0, 2) ).to eq(3 ** .5)
   end
 
-  it "returns 0 when provided with 0,0,0,0" do
-    expect( fun_with_math(0,0,0,0) ).to eq(0)
+  it "returns 5 when provided with 3, 4, 0" do
+    expect( pythagorean_theorem(3, 4, 0) ).to eq(5)
   end
 
-  it "returns 1 when provided with 1,1,1,1" do
-    expect( fun_with_math(1,1,1,1) ).to eq(1)
+  it "returns the correct values when randomly generated" do
+    a = 1 + rand(100)
+    b = 1 + rand(200)
+    expect( pythagorean_theorem(a, b, 0) ).to eq(((a ** 2) + (b ** 2)) ** .5)
   end
 end

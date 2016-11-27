@@ -1,3 +1,9 @@
-def fun_with_math(arg1, arg2, arg3, arg4)
-  ((arg1+arg2) - arg3) * arg4
+def pythagorean_theorem(a, b, c)
+  if a == 0
+    ((c ** 2) - (b ** 2)) ** 0.5
+  elsif b == 0
+    ((c ** 2) - (a ** 2)) ** 0.5
+  else
+    ((a ** 2) + (b ** 2)) ** 0.5
+  end
 end
